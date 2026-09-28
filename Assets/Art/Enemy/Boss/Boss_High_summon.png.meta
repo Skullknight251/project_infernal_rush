@@ -1,0 +1,530 @@
+fileFormatVersion: 2
+guid: 2cc0ad0fe9bd52f4b85370c0bd1e382b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8550552237525080398
+    second: Boss_High_summon_0
+  - first:
+      213: -2676155580315814983
+    second: Boss_High_summon_1
+  - first:
+      213: -4980564420596912091
+    second: Boss_High_summon_2
+  - first:
+      213: -4338013991904017357
+    second: Boss_High_summon_3
+  - first:
+      213: -4359339284906034080
+    second: Boss_High_summon_4
+  - first:
+      213: 1871064847077857495
+    second: Boss_High_summon_5
+  - first:
+      213: 7078035696674048456
+    second: Boss_High_summon_6
+  - first:
+      213: -5867838005203001900
+    second: Boss_High_summon_7
+  - first:
+      213: -7861032431209022355
+    second: Boss_High_summon_8
+  - first:
+      213: 2782176804694962983
+    second: Boss_High_summon_9
+  - first:
+      213: 6755818566673000456
+    second: Boss_High_summon_10
+  - first:
+      213: -6287082209795760386
+    second: Boss_High_summon_11
+  - first:
+      213: -468576760501243485
+    second: Boss_High_summon_12
+  - first:
+      213: -3422615457965918819
+    second: Boss_High_summon_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boss_High_summon_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 93
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b665e0fa06565980800000000000000
+      internalID: -8550552237525080398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_High_summon_1
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 7
+        width: 126
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3b897bda26cdad0800000000000000
+      internalID: -2676155580315814983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_High_summon_2
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 7
+        width: 126
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5203f513c0b71eab0800000000000000
+      internalID: -4980564420596912091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_High_summon_3
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 7
+        width: 126
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33403e512474cc3c0800000000000000
+      internalID: -4338013991904017357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_High_summon_4
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 6
+        width: 126
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c35c364048083c0800000000000000
+      internalID: -4359339284906034080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_High_summon_5
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 7
+        width: 126
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d8dbc9a09b57f910800000000000000
+      internalID: 1871064847077857495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_High_summon_6
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 0
+        width: 126
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c98acf07fb3a3260800000000000000
+      internalID: 7078035696674048456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_High_summon_7
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 1
+        width: 126
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dd96546c60419ea0800000000000000
+      internalID: -5867838005203001900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_High_summon_8
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 0
+        width: 126
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6cf5f147a008e290800000000000000
+      internalID: -7861032431209022355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_High_summon_9
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 2
+        width: 126
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 723bc2230174c9620800000000000000
+      internalID: 2782176804694962983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_High_summon_10
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 0
+        width: 126
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8086889413d71cd50800000000000000
+      internalID: 6755818566673000456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_High_summon_11
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 6
+        width: 126
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efe12736a0ccfb8a0800000000000000
+      internalID: -6287082209795760386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_High_summon_12
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 7
+        width: 126
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a1f1504be74f79f0800000000000000
+      internalID: -468576760501243485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_High_summon_13
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 7
+        width: 93
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d953e21ff5d6080d0800000000000000
+      internalID: -3422615457965918819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_High_summon_14
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 8
+        width: 71
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6aa64c32e1fe04a985625d75806b9c
+      internalID: -1328462233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 62feecf74d84ed14fafb3210e877970b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Boss_High_summon_0: -8550552237525080398
+      Boss_High_summon_1: -2676155580315814983
+      Boss_High_summon_10: 6755818566673000456
+      Boss_High_summon_11: -6287082209795760386
+      Boss_High_summon_12: -468576760501243485
+      Boss_High_summon_13: -3422615457965918819
+      Boss_High_summon_14: -1328462233
+      Boss_High_summon_2: -4980564420596912091
+      Boss_High_summon_3: -4338013991904017357
+      Boss_High_summon_4: -4359339284906034080
+      Boss_High_summon_5: 1871064847077857495
+      Boss_High_summon_6: 7078035696674048456
+      Boss_High_summon_7: -5867838005203001900
+      Boss_High_summon_8: -7861032431209022355
+      Boss_High_summon_9: 2782176804694962983
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

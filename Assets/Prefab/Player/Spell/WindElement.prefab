@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3747841047915387140
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1979871808104227194, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979871808104227194, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979871808104227194, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979871808104227194, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979871808104227194, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979871808104227194, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979871808104227194, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979871808104227194, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979871808104227194, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979871808104227194, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7688864798598414415, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_Size.x
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 7688864798598414415, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_Size.y
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 7688864798598414415, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1854387674148902512, guid: b6d34da8274927c489346bd5edad6a34, type: 3}
+    - target: {fileID: 7688864798598414415, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_SortingOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7688864798598414415, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7688864798598414415, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 8251982062115701670, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_Name
+      value: WindElement
+      objectReference: {fileID: 0}
+    - target: {fileID: 8251982062115701670, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1938728028097201109, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8251982062115701670, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -3087410380050489296}
+    - targetCorrespondingSourceObject: {fileID: 8251982062115701670, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -6909528618533047150}
+  m_SourcePrefab: {fileID: 100100000, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+--- !u!1 &5082290625442912930 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8251982062115701670, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+  m_PrefabInstance: {fileID: 3747841047915387140}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-3087410380050489296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5082290625442912930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb87ff93a54d334ca1e42a2a9018e05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WindElement
+  itemSO: {fileID: 0}
+  spellSO: {fileID: 11400000, guid: dcbc2a00b2a70c1479f1c175769c2ca6, type: 2}
+  swapSpellButtonPrefab: {fileID: -8453921883059847306, guid: bc2d843857692a8419a9797ea2398b8d, type: 3}
+  skillListSO:
+  - {fileID: 11400000, guid: 60a2d2eba54ed2f4cbb2147223ec8bde, type: 2}
+  spellCastingHoldThreshold: 0
+  charging: 0
+  chargingTime: 0
+  maxChargingTime: 0
+  chargingPlusDamage: 0
+  chargingMaxDamage: 0
+  castSpellManaCost: 5
+  windSlashPrefab: {fileID: 7925504183252123292, guid: 9a09788bd460a8d49bed3c9827f48def, type: 3}
+--- !u!95 &-6909528618533047150
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5082290625442912930}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: dc752f66e5a492b4c872c73630f12651, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

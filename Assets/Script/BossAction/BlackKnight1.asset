@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be57647d3eda11240980d3b496543213, type: 3}
+  m_Name: BlackKnight1
+  m_EditorClassIdentifier: Assembly-CSharp::BossActionSO
+  actionName: BlackKnight1
+  spawnLocation: 2
+  enemyPrefab: {fileID: 199077595329149843, guid: 4888de94b67e940468a8f4e817a36e02, type: 3}
+  spawnCount: 1
+  delayBetweenSpawns: 0.5
+  cooldownAfterAction: 1.5

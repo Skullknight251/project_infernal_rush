@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 261c0cc012abd2e40a40464917437ed2, type: 3}
+  m_Name: WhipSO
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyWeaponSO
+  _weaponPrefab: {fileID: 6040687662119467047, guid: 6c3ac7a69a3da454bbe526dae3d0a43b, type: 3}

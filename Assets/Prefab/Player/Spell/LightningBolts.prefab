@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2295030975531031380
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1938728028097201109, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: spellSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 43007745ebd70694fb7f4fb2308cd5ab, type: 2}
+    - target: {fileID: 1938728028097201109, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: swapSpellButtonPrefab
+      value: 
+      objectReference: {fileID: -8957073960040857332, guid: 8538244430545f54a9fa84dd11061b20, type: 3}
+    - target: {fileID: 1938728028097201109, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: skillListSO.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1938728028097201109, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: 'skillListSO.Array.data[0]'
+      value: 
+      objectReference: {fileID: 11400000, guid: d6a0d44390971914d943affea0851b46, type: 2}
+    - target: {fileID: 1979871808104227194, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979871808104227194, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979871808104227194, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979871808104227194, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979871808104227194, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979871808104227194, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979871808104227194, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979871808104227194, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979871808104227194, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979871808104227194, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7688864798598414415, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_Size.x
+      value: 0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 7688864798598414415, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_Size.y
+      value: 0.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 7688864798598414415, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -894095381526335850, guid: 00eecb645816d3140aa7ed82a6e8e2d9, type: 3}
+    - target: {fileID: 7688864798598414415, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_SortingOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7688864798598414415, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7688864798598414415, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 8251982062115701670, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_Name
+      value: LightningBolts
+      objectReference: {fileID: 0}
+    - target: {fileID: 8251982062115701670, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1938728028097201109, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8251982062115701670, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9005510726619133664}
+    - targetCorrespondingSourceObject: {fileID: 8251982062115701670, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1759329630650041402}
+  m_SourcePrefab: {fileID: 100100000, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+--- !u!1 &7880590668836821234 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8251982062115701670, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+  m_PrefabInstance: {fileID: 2295030975531031380}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &9005510726619133664
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7880590668836821234}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: be47609a5e390514fae582d6bc59783d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1759329630650041402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7880590668836821234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0dca084578b8b0439dd9a43b14e20ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LightningBolts
+  itemSO: {fileID: 0}
+  spellSO: {fileID: 11400000, guid: 3842d3d5e14dfbd44bac6767f3160f90, type: 2}
+  swapSpellButtonPrefab: {fileID: -8957073960040857332, guid: 8538244430545f54a9fa84dd11061b20, type: 3}
+  skillListSO:
+  - {fileID: 11400000, guid: d6a0d44390971914d943affea0851b46, type: 2}
+  spellCastingHoldThreshold: 0
+  charging: 0
+  chargingTime: 0
+  maxChargingTime: 0
+  chargingPlusDamage: 0
+  chargingMaxDamage: 0
+  castSpellManaCost: 6
+  lightningBoltPrefab: {fileID: -5048298678751192494, guid: 417286d363a160e4abb6cb3e5b54e728, type: 3}

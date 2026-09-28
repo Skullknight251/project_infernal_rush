@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7b855c709b27249a6b6c6d31052337, type: 3}
+  m_Name: 2SoulSO
+  m_EditorClassIdentifier: Assembly-CSharp::DropItemSO
+  name: 2SoulSO
+  quantity: 2
+  prefab: {fileID: 4464601182760558351, guid: 24200d5b891378c45b6fc26835b02c95, type: 3}

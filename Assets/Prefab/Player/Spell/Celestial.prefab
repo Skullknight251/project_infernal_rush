@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2001662845065963670
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1979871808104227194, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979871808104227194, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979871808104227194, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979871808104227194, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979871808104227194, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979871808104227194, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979871808104227194, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979871808104227194, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979871808104227194, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979871808104227194, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7688864798598414415, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_Size.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7688864798598414415, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_Size.y
+      value: 0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7688864798598414415, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3177618314407323778, guid: 080427678e1520249b3e539980f4a8b2, type: 3}
+    - target: {fileID: 7688864798598414415, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_SortingOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7688864798598414415, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7688864798598414415, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 8251982062115701670, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_Name
+      value: Celestial
+      objectReference: {fileID: 0}
+    - target: {fileID: 8251982062115701670, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1938728028097201109, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8251982062115701670, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7691143744891470495}
+    - targetCorrespondingSourceObject: {fileID: 8251982062115701670, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3232394637082386224}
+  m_SourcePrefab: {fileID: 100100000, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+--- !u!1 &7585108741252213552 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8251982062115701670, guid: 2898275b7feb5fc4d8690bb2a7d4a4e0, type: 3}
+  m_PrefabInstance: {fileID: 2001662845065963670}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &7691143744891470495
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7585108741252213552}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: dccd11ec208fc3b4fb3590d460684bff, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &3232394637082386224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7585108741252213552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0544da354d71c524d89aa5b2e8fec132, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Celestial
+  itemSO: {fileID: 0}
+  spellSO: {fileID: 11400000, guid: 5f920c5c9090ea649b3c47aa5891953b, type: 2}
+  swapSpellButtonPrefab: {fileID: 6454548386497438834, guid: 53b76230250c57c40932f5043f3b6d93, type: 3}
+  skillListSO:
+  - {fileID: 11400000, guid: f86cb358ba733eb43b0b2b8988b780da, type: 2}
+  spellCastingHoldThreshold: 0.4
+  charging: 0
+  chargingTime: 0
+  maxChargingTime: 5
+  chargingPlusDamage: 0
+  chargingMaxDamage: 0
+  castSpellManaCost: 5
+  meteoritePrefab: {fileID: -4115657268742544033, guid: 65cfc86f08b530f4c83d655c0478ce1c, type: 3}
+  delayTime: 0.2
+  speed: 40

@@ -1,0 +1,983 @@
+fileFormatVersion: 2
+guid: 5446cb8f99348704d985f6da17335f56
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 282438862418282467
+    second: TridentDemon_0
+  - first:
+      213: -4688977728714785731
+    second: TridentDemon_1
+  - first:
+      213: -389498640673714756
+    second: TridentDemon_2
+  - first:
+      213: -6024735298870249165
+    second: TridentDemon_3
+  - first:
+      213: -4570354673157628201
+    second: TridentDemon_4
+  - first:
+      213: 9139050081363608615
+    second: TridentDemon_5
+  - first:
+      213: 156832335141308543
+    second: TridentDemon_6
+  - first:
+      213: -4972711717647754343
+    second: TridentDemon_7
+  - first:
+      213: 3426021407087404800
+    second: TridentDemon_8
+  - first:
+      213: -7082104843025593536
+    second: TridentDemon_9
+  - first:
+      213: -2190649413389975241
+    second: TridentDemon_10
+  - first:
+      213: -3375508136735440510
+    second: TridentDemon_11
+  - first:
+      213: 3128813509963828205
+    second: TridentDemon_12
+  - first:
+      213: -7123220136689459384
+    second: TridentDemon_13
+  - first:
+      213: -4292516747231226063
+    second: TridentDemon_14
+  - first:
+      213: 182147575575171953
+    second: TridentDemon_15
+  - first:
+      213: -9213454252175436981
+    second: TridentDemon_16
+  - first:
+      213: -8457725452140537489
+    second: TridentDemon_17
+  - first:
+      213: -2257796384407092791
+    second: TridentDemon_18
+  - first:
+      213: 68903292998713424
+    second: TridentDemon_19
+  - first:
+      213: 7816755351202257321
+    second: TridentDemon_20
+  - first:
+      213: 3965067313467623860
+    second: TridentDemon_21
+  - first:
+      213: -5450866686164045332
+    second: TridentDemon_22
+  - first:
+      213: 8514558537677813524
+    second: TridentDemon_23
+  - first:
+      213: 4202871104191512907
+    second: TridentDemon_24
+  - first:
+      213: 8447985729273791093
+    second: TridentDemon_25
+  - first:
+      213: 4791329911525961549
+    second: TridentDemon_26
+  - first:
+      213: -6478608519772132595
+    second: TridentDemon_27
+  - first:
+      213: -675728731133305584
+    second: TridentDemon_28
+  - first:
+      213: -6601025761337802050
+    second: TridentDemon_29
+  - first:
+      213: -5127399891289462217
+    second: TridentDemon_30
+  - first:
+      213: 153139127045248264
+    second: TridentDemon_31
+  - first:
+      213: -676562133480564129
+    second: TridentDemon_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TridentDemon_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9
+        width: 31
+        height: 21
+      alignment: 9
+      pivot: {x: 0.46827054, y: 0.45255506}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e7053126ac6be300800000000000000
+      internalID: 282438862418282467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TridentDemon_02
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 9
+        width: 28
+        height: 21
+      alignment: 9
+      pivot: {x: 0.4109271, y: 0.35394025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3cbc3859976deeb0800000000000000
+      internalID: -4688977728714785731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TridentDemon_03
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 9
+        width: 28
+        height: 21
+      alignment: 9
+      pivot: {x: 0.41088486, y: 0.40465435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd452acc09389af0800000000000000
+      internalID: -389498640673714756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TridentDemon_04
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 8
+        width: 29
+        height: 22
+      alignment: 9
+      pivot: {x: 0.42974484, y: 0.47764614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339f4158a27d36ca0800000000000000
+      internalID: -6024735298870249165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TridentDemon_05
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 7
+        width: 30
+        height: 23
+      alignment: 9
+      pivot: {x: 0.44968617, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7de94e8b3a6d290c0800000000000000
+      internalID: -4570354673157628201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TridentDemon_06
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 9
+        width: 31
+        height: 21
+      alignment: 9
+      pivot: {x: 0.46826616, y: 0.45093066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 724ce24d0ad64de70800000000000000
+      internalID: 9139050081363608615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TridentDemon_07
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 9
+        width: 29
+        height: 21
+      alignment: 9
+      pivot: {x: 0.43008053, y: 0.40661013}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7884698d2e2d2200800000000000000
+      internalID: 156832335141308543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TridentDemon_08
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 9
+        width: 32
+        height: 21
+      alignment: 9
+      pivot: {x: 0.4833784, y: 0.35437512}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99bde231a016dfab0800000000000000
+      internalID: -4972711717647754343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TridentDemon_09
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 9
+        width: 32
+        height: 21
+      alignment: 9
+      pivot: {x: 0.4839058, y: 0.4043494}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0072452615cab8f20800000000000000
+      internalID: 3426021407087404800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TridentDemon_012
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 9
+        width: 31
+        height: 21
+      alignment: 9
+      pivot: {x: 0.46705282, y: 0.45084527}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04bc269fa2f47bd90800000000000000
+      internalID: -7082104843025593536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TridentDemon_013
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 9
+        width: 28
+        height: 21
+      alignment: 9
+      pivot: {x: 0.4454313, y: 0.5007407}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 731097f07ff3991e0800000000000000
+      internalID: -2190649413389975241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TridentDemon_014
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 9
+        width: 28
+        height: 21
+      alignment: 9
+      pivot: {x: 0.55239105, y: 0.4970178}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 281817ddb39c721d0800000000000000
+      internalID: -3375508136735440510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TridentDemon_015
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 9
+        width: 36
+        height: 21
+      alignment: 9
+      pivot: {x: 0.4303377, y: 0.49572608}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb46d56f47cb6b20800000000000000
+      internalID: 3128813509963828205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TridentDemon_016
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 9
+        width: 42
+        height: 21
+      alignment: 9
+      pivot: {x: 0.27277628, y: 0.4531014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84f17bfa60d352d90800000000000000
+      internalID: -7123220136689459384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TridentDemon_017
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 9
+        width: 42
+        height: 21
+      alignment: 9
+      pivot: {x: 0.27199444, y: 0.45390493}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1371ed8d2caed64c0800000000000000
+      internalID: -4292516747231226063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TridentDemon_018
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 9
+        width: 31
+        height: 21
+      alignment: 9
+      pivot: {x: 0.46700755, y: 0.45242944}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1735bd2414e178200800000000000000
+      internalID: 182147575575171953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TridentDemon_020
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 0
+        width: 33
+        height: 30
+      alignment: 9
+      pivot: {x: 0.47130793, y: 0.38324633}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4355c03c2c332080800000000000000
+      internalID: -9213454252175436981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TridentDemon_021
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1
+        width: 50
+        height: 29
+      alignment: 9
+      pivot: {x: 0.32991943, y: 0.60263824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c101449622baa0e0800000000000000
+      internalID: -2257796384407092791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TridentDemon_022
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 1
+        width: 45
+        height: 29
+      alignment: 9
+      pivot: {x: 0.2541531, y: 0.60062754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a95b84b391ba7c60800000000000000
+      internalID: 7816755351202257321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TridentDemon_023
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 6
+        width: 30
+        height: 24
+      alignment: 9
+      pivot: {x: 0.3842875, y: 0.5262983}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b900c9b6bfb60730800000000000000
+      internalID: 3965067313467623860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TridentDemon_024
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 9
+        width: 32
+        height: 21
+      alignment: 9
+      pivot: {x: 0.4838276, y: 0.45239812}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce17e2df0a1aa54b0800000000000000
+      internalID: -5450866686164045332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TridentDemon_025
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 9
+        width: 32
+        height: 21
+      alignment: 9
+      pivot: {x: 0.4826622, y: 0.45458058}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4173e81c0e9c92670800000000000000
+      internalID: 8514558537677813524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TridentDemon_026
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 9
+        width: 32
+        height: 21
+      alignment: 9
+      pivot: {x: 0.48329926, y: 0.4535251}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b41c6126009935a30800000000000000
+      internalID: 4202871104191512907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TridentDemon_027
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 9
+        width: 32
+        height: 21
+      alignment: 9
+      pivot: {x: 0.48244858, y: 0.4509419}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5720fece2464d3570800000000000000
+      internalID: 8447985729273791093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TridentDemon_028
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 8
+        width: 31
+        height: 22
+      alignment: 9
+      pivot: {x: 0.4694588, y: 0.48087397}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f65324b293e7240800000000000000
+      internalID: 4791329911525961549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TridentDemon_029
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 8
+        width: 40
+        height: 22
+      alignment: 9
+      pivot: {x: 0.3882309, y: 0.43305883}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0ba92c50eb5716a0800000000000000
+      internalID: -6478608519772132595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TridentDemon_030
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 8
+        width: 42
+        height: 22
+      alignment: 9
+      pivot: {x: 0.27458555, y: 0.5239075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d16489c445f96f0800000000000000
+      internalID: -675728731133305584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TridentDemon_031
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 13
+        width: 19
+        height: 17
+      alignment: 9
+      pivot: {x: 0.6605546, y: 0.5618783}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb202463b027464a0800000000000000
+      internalID: -6601025761337802050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TridentDemon_01
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 9
+        width: 29
+        height: 21
+      alignment: 9
+      pivot: {x: 0.43216956, y: 0.40244928}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36b0b726a6f1bb4b86be23c85e09229
+      internalID: 870488302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TridentDemon_010
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 9
+        width: 28
+        height: 21
+      alignment: 9
+      pivot: {x: 0.40977696, y: 0.45231447}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9109f159d5589b54994f53a515a5205a
+      internalID: -89216132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TridentDemon_011
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 9
+        width: 28
+        height: 21
+      alignment: 9
+      pivot: {x: 0.41047016, y: 0.45284182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69db2b41680c9a4999e800bc4f5164b
+      internalID: 194709354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TridentDemon_019
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 3
+        width: 20
+        height: 27
+      alignment: 9
+      pivot: {x: 0.6253754, y: 0.38991374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17714348025f17242a4c79ae06b966d6
+      internalID: -644003969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 27c8fe565114cf9468d3bd23117f39b1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TridentDemon_0: 282438862418282467
+      TridentDemon_01: 870488302
+      TridentDemon_010: -89216132
+      TridentDemon_011: 194709354
+      TridentDemon_012: -7082104843025593536
+      TridentDemon_013: -2190649413389975241
+      TridentDemon_014: -3375508136735440510
+      TridentDemon_015: 3128813509963828205
+      TridentDemon_016: -7123220136689459384
+      TridentDemon_017: -4292516747231226063
+      TridentDemon_018: 182147575575171953
+      TridentDemon_019: -644003969
+      TridentDemon_02: -4688977728714785731
+      TridentDemon_020: -9213454252175436981
+      TridentDemon_021: -2257796384407092791
+      TridentDemon_022: 7816755351202257321
+      TridentDemon_023: 3965067313467623860
+      TridentDemon_024: -5450866686164045332
+      TridentDemon_025: 8514558537677813524
+      TridentDemon_026: 4202871104191512907
+      TridentDemon_027: 8447985729273791093
+      TridentDemon_028: 4791329911525961549
+      TridentDemon_029: -6478608519772132595
+      TridentDemon_03: -389498640673714756
+      TridentDemon_030: -675728731133305584
+      TridentDemon_031: -6601025761337802050
+      TridentDemon_04: -6024735298870249165
+      TridentDemon_05: -4570354673157628201
+      TridentDemon_06: 9139050081363608615
+      TridentDemon_07: 156832335141308543
+      TridentDemon_08: -4972711717647754343
+      TridentDemon_09: 3426021407087404800
+      TridentDemon_17: -8457725452140537489
+      TridentDemon_19: 68903292998713424
+      TridentDemon_30: -5127399891289462217
+      TridentDemon_31: 153139127045248264
+      TridentDemon_32: -676562133480564129
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

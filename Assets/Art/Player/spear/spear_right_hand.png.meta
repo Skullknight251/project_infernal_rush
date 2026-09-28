@@ -1,0 +1,722 @@
+fileFormatVersion: 2
+guid: 03e082e5f06e4234482e2744484a5e39
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4122884904753235232
+    second: spear_right_hand_0
+  - first:
+      213: -7728871697216006570
+    second: spear_right_hand_1
+  - first:
+      213: -507194308211162022
+    second: spear_right_hand_2
+  - first:
+      213: 7429441472458314991
+    second: spear_right_hand_3
+  - first:
+      213: 815308964193665992
+    second: spear_right_hand_4
+  - first:
+      213: -1429335965329152658
+    second: spear_right_hand_5
+  - first:
+      213: 1908509727342847092
+    second: spear_right_hand_6
+  - first:
+      213: 173779676637238988
+    second: spear_right_hand_7
+  - first:
+      213: 6508313126338645421
+    second: spear_right_hand_8
+  - first:
+      213: -2474224994806055078
+    second: spear_right_hand_9
+  - first:
+      213: 2172910695952175926
+    second: spear_right_hand_10
+  - first:
+      213: -5301291687820705493
+    second: spear_right_hand_11
+  - first:
+      213: 3506248601146321426
+    second: spear_right_hand_12
+  - first:
+      213: 3343443821033961000
+    second: spear_right_hand_13
+  - first:
+      213: 4153307455460749067
+    second: spear_right_hand_14
+  - first:
+      213: -2085245554439745698
+    second: spear_right_hand_15
+  - first:
+      213: -4694182497218704140
+    second: spear_right_hand_16
+  - first:
+      213: 7332132610711375357
+    second: spear_right_hand_17
+  - first:
+      213: -470054051763630137
+    second: spear_right_hand_18
+  - first:
+      213: -8474519006768579866
+    second: spear_right_hand_19
+  - first:
+      213: 4256407679273482526
+    second: spear_right_hand_20
+  - first:
+      213: 1155817512031699613
+    second: spear_right_hand_21
+  - first:
+      213: -8517119283797002887
+    second: spear_right_hand_22
+  - first:
+      213: 80300975295050779
+    second: spear_right_hand_23
+  - first:
+      213: 983429385463445027
+    second: spear_right_hand_24
+  - first:
+      213: -2144660009906119137
+    second: spear_right_hand_25
+  - first:
+      213: 3263013249786496694
+    second: spear_right_hand_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spear_right_hand_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 46
+        height: 24
+      alignment: 9
+      pivot: {x: 0.42494622, y: 0.8548849}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02503a51afd673930800000000000000
+      internalID: 4122884904753235232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spear_right_hand_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 31
+        width: 46
+        height: 24
+      alignment: 9
+      pivot: {x: 0.42409116, y: 0.85259056}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6569ed404288db490800000000000000
+      internalID: -7728871697216006570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spear_right_hand_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 34
+        width: 46
+        height: 20
+      alignment: 9
+      pivot: {x: 0.4234347, y: 0.82564867}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5449f2c67516f8f0800000000000000
+      internalID: -507194308211162022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spear_right_hand_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 34
+        width: 46
+        height: 21
+      alignment: 9
+      pivot: {x: 0.42445308, y: 0.8322238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe4de6508adaa1760800000000000000
+      internalID: 7429441472458314991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spear_right_hand_4
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 28
+        width: 43
+        height: 24
+      alignment: 9
+      pivot: {x: 0.31394887, y: 0.3112464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c384f8ee2f805b00800000000000000
+      internalID: 815308964193665992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spear_right_hand_5
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 32
+        width: 46
+        height: 21
+      alignment: 9
+      pivot: {x: 0.35858685, y: 0.1658218}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e65add1338af92ce0800000000000000
+      internalID: -1429335965329152658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spear_right_hand_7
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 32
+        width: 47
+        height: 22
+      alignment: 9
+      pivot: {x: 0.35016128, y: 0.15829034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc61527f1b3696200800000000000000
+      internalID: 173779676637238988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spear_right_hand_9
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 41
+        width: 63
+        height: 19
+      alignment: 9
+      pivot: {x: 0.056611076, y: 0.5463656}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5f313ae979c9add0800000000000000
+      internalID: -2474224994806055078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spear_right_hand_11
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 18
+        width: 17
+        height: 46
+      alignment: 9
+      pivot: {x: 0.79505295, y: 0.7275213}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2147b02c470e66b0800000000000000
+      internalID: -5301291687820705493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spear_right_hand_12
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 18
+        width: 22
+        height: 46
+      alignment: 9
+      pivot: {x: 0.84525645, y: 0.72750115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a698d9682b8a030800000000000000
+      internalID: 3506248601146321426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spear_right_hand_13
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 17
+        width: 22
+        height: 47
+      alignment: 9
+      pivot: {x: 0.84021276, y: 0.73342896}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 826343fd07c466e20800000000000000
+      internalID: 3343443821033961000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spear_right_hand_14
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 31
+        width: 47
+        height: 24
+      alignment: 9
+      pivot: {x: 0.41436118, y: 0.85495156}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f28b5202383a930800000000000000
+      internalID: 4153307455460749067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spear_right_hand_15
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 33
+        width: 46
+        height: 21
+      alignment: 9
+      pivot: {x: 0.42374057, y: 0.832325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f08226738bf03e0800000000000000
+      internalID: -2085245554439745698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spear_right_hand_16
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 33
+        width: 46
+        height: 21
+      alignment: 9
+      pivot: {x: 0.4242169, y: 0.83200634}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc4c6eb3e9eadeb0800000000000000
+      internalID: -4694182497218704140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spear_right_hand_17
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 7
+        width: 49
+        height: 49
+      alignment: 9
+      pivot: {x: 0.49938092, y: 0.5841402}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd428b13c7f0c560800000000000000
+      internalID: 7332132610711375357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spear_right_hand_18
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 9
+        width: 46
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5109518, y: 0.57508993}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf456394580a79f0800000000000000
+      internalID: -470054051763630137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spear_right_hand_19
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 9
+        width: 45
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5223863, y: 0.57610726}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ea334ffcd5746a80800000000000000
+      internalID: -8474519006768579866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spear_right_hand_20
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 8
+        width: 48
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5302684, y: 0.58587444}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e19375e9b3cc11b30800000000000000
+      internalID: 4256407679273482526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spear_right_hand_21
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 28
+        width: 43
+        height: 24
+      alignment: 9
+      pivot: {x: 0.38469467, y: 0.31201553}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9243d547e94a0010800000000000000
+      internalID: 1155817512031699613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spear_right_hand_22
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 31
+        width: 47
+        height: 23
+      alignment: 9
+      pivot: {x: 0.18156141, y: 0.19493887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97576a3132d1dc980800000000000000
+      internalID: -8517119283797002887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spear_right_hand_24
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 41
+        width: 62
+        height: 20
+      alignment: 9
+      pivot: {x: 0.055801883, y: 0.5205864}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 326ba3ec0d7d5ad00800000000000000
+      internalID: 983429385463445027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spear_right_hand_26
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 47
+        width: 45
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b6cae2334d884d20800000000000000
+      internalID: 3263013249786496694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6f605f5cb5710804da3523c6805f4e5c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spear_right_hand_0: 4122884904753235232
+      spear_right_hand_1: -7728871697216006570
+      spear_right_hand_10: 2172910695952175926
+      spear_right_hand_11: -5301291687820705493
+      spear_right_hand_12: 3506248601146321426
+      spear_right_hand_13: 3343443821033961000
+      spear_right_hand_14: 4153307455460749067
+      spear_right_hand_15: -2085245554439745698
+      spear_right_hand_16: -4694182497218704140
+      spear_right_hand_17: 7332132610711375357
+      spear_right_hand_18: -470054051763630137
+      spear_right_hand_19: -8474519006768579866
+      spear_right_hand_2: -507194308211162022
+      spear_right_hand_20: 4256407679273482526
+      spear_right_hand_21: 1155817512031699613
+      spear_right_hand_22: -8517119283797002887
+      spear_right_hand_23: 80300975295050779
+      spear_right_hand_24: 983429385463445027
+      spear_right_hand_25: -2144660009906119137
+      spear_right_hand_26: 3263013249786496694
+      spear_right_hand_3: 7429441472458314991
+      spear_right_hand_4: 815308964193665992
+      spear_right_hand_5: -1429335965329152658
+      spear_right_hand_6: 1908509727342847092
+      spear_right_hand_7: 173779676637238988
+      spear_right_hand_8: 6508313126338645421
+      spear_right_hand_9: -2474224994806055078
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

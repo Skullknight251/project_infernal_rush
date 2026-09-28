@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834b89663e7b65d45835aed06324d326, type: 3}
+  m_Name: WindElementSO
+  m_EditorClassIdentifier: Assembly-CSharp::SpellSO
+  itemID: wind
+  item: {fileID: 0}
+  sprite: {fileID: -1891413282676889584, guid: b6d34da8274927c489346bd5edad6a34, type: 3}
+  price: 15000
+  spellPrefab: {fileID: -3087410380050489296, guid: 4b51f82fc1464f04188e853c513b2995, type: 3}
+  type: 3

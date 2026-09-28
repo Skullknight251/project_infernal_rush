@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834b89663e7b65d45835aed06324d326, type: 3}
+  m_Name: CelestialSO
+  m_EditorClassIdentifier: Assembly-CSharp::SpellSO
+  itemID: celestial
+  item: {fileID: 0}
+  sprite: {fileID: -1539740473533802839, guid: 080427678e1520249b3e539980f4a8b2, type: 3}
+  price: 200000
+  spellPrefab: {fileID: 3232394637082386224, guid: dd80051c0aed3634c8fe84ece64e50cb, type: 3}
+  type: 4

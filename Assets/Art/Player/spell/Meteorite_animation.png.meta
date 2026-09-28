@@ -1,0 +1,543 @@
+fileFormatVersion: 2
+guid: 197f63fa2589f8c4485836d4d789b18b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6244491047682402012
+    second: Meteorite_animation_0
+  - first:
+      213: -1785994286638703140
+    second: Meteorite_animation_1
+  - first:
+      213: -3917813917787575252
+    second: Meteorite_animation_2
+  - first:
+      213: -9148666606756067805
+    second: Meteorite_animation_3
+  - first:
+      213: 6722883976208934699
+    second: Meteorite_animation_4
+  - first:
+      213: 4713488013256868945
+    second: Meteorite_animation_5
+  - first:
+      213: -6909262353140123580
+    second: Meteorite_animation_6
+  - first:
+      213: -4694747223909968004
+    second: Meteorite_animation_7
+  - first:
+      213: 3553768592412238632
+    second: Meteorite_animation_8
+  - first:
+      213: 7514744969186346984
+    second: Meteorite_animation_9
+  - first:
+      213: -7174141003201266993
+    second: Meteorite_animation_10
+  - first:
+      213: 1335622575412121747
+    second: Meteorite_animation_11
+  - first:
+      213: 8672566002649449484
+    second: Meteorite_animation_12
+  - first:
+      213: -3108160753773424702
+    second: Meteorite_animation_13
+  - first:
+      213: 7970801040842892990
+    second: Meteorite_animation_14
+  - first:
+      213: 3178554540967249440
+    second: Meteorite_animation_15
+  - first:
+      213: 5093121652891470920
+    second: Meteorite_animation_16
+  - first:
+      213: -8913772244366681459
+    second: Meteorite_animation_17
+  - first:
+      213: 8186294554514707651
+    second: Meteorite_animation_18
+  - first:
+      213: -2820478327501149845
+    second: Meteorite_animation_19
+  - first:
+      213: -5912929594035395182
+    second: Meteorite_animation_20
+  - first:
+      213: 6571984033462116298
+    second: Meteorite_animation_21
+  - first:
+      213: 3941423620313667333
+    second: Meteorite_animation_22
+  - first:
+      213: -4557068243782777551
+    second: Meteorite_animation_23
+  - first:
+      213: 7293446364164484989
+    second: Meteorite_animation_24
+  - first:
+      213: 7693915020401501650
+    second: Meteorite_animation_25
+  - first:
+      213: 4658378651634451579
+    second: Meteorite_animation_26
+  - first:
+      213: -3994743539838156039
+    second: Meteorite_animation_27
+  - first:
+      213: -2487242746100113780
+    second: Meteorite_animation_28
+  - first:
+      213: -6112895495698743088
+    second: Meteorite_animation_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Meteorite_animation_4
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 6
+        width: 87
+        height: 74
+      alignment: 9
+      pivot: {x: 0.9711209, y: 0.033755206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2769146b5b7c4d50800000000000000
+      internalID: 6722883976208934699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteorite_animation_6
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1
+        width: 88
+        height: 75
+      alignment: 9
+      pivot: {x: 0.9491903, y: 0.046426944}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4487a152f7e5d10a0800000000000000
+      internalID: -6909262353140123580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteorite_animation_7
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 3
+        width: 85
+        height: 68
+      alignment: 9
+      pivot: {x: 0.93544704, y: 0.06619715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7758901648e8deb0800000000000000
+      internalID: -4694747223909968004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteorite_animation_8
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 2
+        width: 83
+        height: 73
+      alignment: 9
+      pivot: {x: 0.9461648, y: 0.060987405}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 823eba4c4b5815130800000000000000
+      internalID: 3553768592412238632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteorite_animation_10
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 0
+        width: 83
+        height: 72
+      alignment: 9
+      pivot: {x: 0.9462119, y: 0.06259937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcabf9f84c4507c90800000000000000
+      internalID: -7174141003201266993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteorite_animation_12
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 0
+        width: 81
+        height: 66
+      alignment: 9
+      pivot: {x: 0.9322404, y: 0.09836673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3909e69e7a5198210800000000000000
+      internalID: 1335622575412121747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteorite_animation_13
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 2
+        width: 86
+        height: 76
+      alignment: 9
+      pivot: {x: 0.9358308, y: 0.07152788}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf468e13489dd4d0800000000000000
+      internalID: -3108160753773424702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteorite_animation_5
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1
+        width: 84
+        height: 79
+      alignment: 9
+      pivot: {x: 0.95834494, y: 0.056786627}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a99c5fe5beb4480800000000000000
+      internalID: -8913772244366681459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteorite_animation_9
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 1
+        width: 73
+        height: 53
+      alignment: 9
+      pivot: {x: 0.9519929, y: 0.085134126}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b692b9897e5abd8d0800000000000000
+      internalID: -2820478327501149845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteorite_animation_11
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 3
+        width: 72
+        height: 55
+      alignment: 9
+      pivot: {x: 0.92365605, y: 0.0809873}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29520adbcdd01fda0800000000000000
+      internalID: -5912929594035395182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteorite_animation_2
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 3
+        width: 72
+        height: 66
+      alignment: 9
+      pivot: {x: 0.9651515, y: 0.038751416}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 507512e66efb2b630800000000000000
+      internalID: 3941423620313667333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteorite_animation_3
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 4
+        width: 87
+        height: 76
+      alignment: 9
+      pivot: {x: 0.97109354, y: 0.032857727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d5e21b62f646ca60800000000000000
+      internalID: 7693915020401501650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Meteorite_animation_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 11
+        width: 73
+        height: 66
+      alignment: 9
+      pivot: {x: 0.96597, y: 0.037912153}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8e198086e98b7dd0800000000000000
+      internalID: -2487242746100113780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 376c802904a603c4ca36fe4ddd710dc6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Meteorite_animation_0: 6244491047682402012
+      Meteorite_animation_1: -2487242746100113780
+      Meteorite_animation_10: -7174141003201266993
+      Meteorite_animation_11: -5912929594035395182
+      Meteorite_animation_12: 1335622575412121747
+      Meteorite_animation_13: -3108160753773424702
+      Meteorite_animation_14: 7970801040842892990
+      Meteorite_animation_15: 3178554540967249440
+      Meteorite_animation_16: 5093121652891470920
+      Meteorite_animation_18: 8186294554514707651
+      Meteorite_animation_2: 3941423620313667333
+      Meteorite_animation_21: 6571984033462116298
+      Meteorite_animation_23: -4557068243782777551
+      Meteorite_animation_24: 7293446364164484989
+      Meteorite_animation_26: 4658378651634451579
+      Meteorite_animation_27: -3994743539838156039
+      Meteorite_animation_29: -6112895495698743088
+      Meteorite_animation_3: 7693915020401501650
+      Meteorite_animation_4: 6722883976208934699
+      Meteorite_animation_5: -8913772244366681459
+      Meteorite_animation_6: -6909262353140123580
+      Meteorite_animation_7: -4694747223909968004
+      Meteorite_animation_8: 3553768592412238632
+      Meteorite_animation_9: -2820478327501149845
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

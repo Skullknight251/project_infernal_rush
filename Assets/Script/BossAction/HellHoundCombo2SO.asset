@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be57647d3eda11240980d3b496543213, type: 3}
+  m_Name: HellHoundCombo2SO
+  m_EditorClassIdentifier: Assembly-CSharp::BossActionSO
+  actionName: HellHoundCombo1SO
+  spawnLocation: 2
+  enemyPrefab: {fileID: 295340527229711631, guid: e4909ec6da3b2c140a9c906934ef8ceb, type: 3}
+  spawnCount: 2
+  delayBetweenSpawns: 1
+  cooldownAfterAction: 1

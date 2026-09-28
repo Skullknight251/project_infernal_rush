@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbd8e328f90f1134b95690a46ad3fb78, type: 3}
+  m_Name: LowPlaceEnemySpawnList
+  m_EditorClassIdentifier: Assembly-CSharp::LowPlaceEnemySpawnList
+  enemySOList:
+  - {fileID: 11400000, guid: cf77f646096e7cd48a184dc6e2302b73, type: 2}

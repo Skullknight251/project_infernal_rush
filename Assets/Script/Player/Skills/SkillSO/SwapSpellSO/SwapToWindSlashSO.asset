@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b85abcfdab022cd4aa805d4bf7ff6964, type: 3}
+  m_Name: SwapToWindSlashSO
+  m_EditorClassIdentifier: Assembly-CSharp::SkillSO
+  buttonType: 5
+  weapon: {fileID: 5082290625442912930, guid: 4b51f82fc1464f04188e853c513b2995, type: 3}
+  prefab: {fileID: 2790171978334136565, guid: bc2d843857692a8419a9797ea2398b8d, type: 3}

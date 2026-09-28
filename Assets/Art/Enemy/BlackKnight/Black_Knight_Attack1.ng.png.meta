@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: c09cfda897839cf41a5cb290bd549d2d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3404760840329938589
+    second: Black_Knight_Attack1.ng_0
+  - first:
+      213: 4277344277888230784
+    second: Black_Knight_Attack1.ng_1
+  - first:
+      213: -4189181542830686781
+    second: Black_Knight_Attack1.ng_2
+  - first:
+      213: -120044992892397171
+    second: Black_Knight_Attack1.ng_3
+  - first:
+      213: -1057355857718007463
+    second: Black_Knight_Attack1.ng_4
+  - first:
+      213: 7560334926534671690
+    second: Black_Knight_Attack1.ng_5
+  - first:
+      213: -3154251977211236073
+    second: Black_Knight_Attack1.ng_6
+  - first:
+      213: 2183541301093877688
+    second: Black_Knight_Attack1.ng_7
+  - first:
+      213: 1827808337010776940
+    second: Black_Knight_Attack1.ng_8
+  - first:
+      213: 2153610090008563717
+    second: Black_Knight_Attack1.ng_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Black_Knight_Attack1.ng_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 39
+        height: 23
+      alignment: 9
+      pivot: {x: 0.24375306, y: 0.41262284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d96c601f1f3204f20800000000000000
+      internalID: 3404760840329938589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Knight_Attack1.ng_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 0
+        width: 40
+        height: 23
+      alignment: 9
+      pivot: {x: 0.26136798, y: 0.41262284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085e39955fd2c5b30800000000000000
+      internalID: 4277344277888230784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Knight_Attack1.ng_2
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 0
+        width: 37
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25727576, y: 0.3951632}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd34fff4990dd5c0800000000000000
+      internalID: -4189181542830686781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Knight_Attack1.ng_3
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 0
+        width: 35
+        height: 24
+      alignment: 9
+      pivot: {x: 0.26947895, y: 0.3948325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d89959907b3855ef0800000000000000
+      internalID: -120044992892397171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Knight_Attack1.ng_4
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 0
+        width: 31
+        height: 24
+      alignment: 9
+      pivot: {x: 0.27266127, y: 0.39867976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9592a8313748351f0800000000000000
+      internalID: -1057355857718007463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Knight_Attack1.ng_5
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 0
+        width: 41
+        height: 23
+      alignment: 9
+      pivot: {x: 0.25606033, y: 0.4126229}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4df31f2f84bbe860800000000000000
+      internalID: 7560334926534671690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Knight_Attack1.ng_6
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 0
+        width: 50
+        height: 23
+      alignment: 9
+      pivot: {x: 0.20965943, y: 0.41445762}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7113046e988d934d0800000000000000
+      internalID: -3154251977211236073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Knight_Attack1.ng_7
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 0
+        width: 49
+        height: 23
+      alignment: 9
+      pivot: {x: 0.21500693, y: 0.41480273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b748149e3f7d4e10800000000000000
+      internalID: 2183541301093877688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Knight_Attack1.ng_8
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 41
+        height: 23
+      alignment: 9
+      pivot: {x: 0.23025438, y: 0.4104428}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b56059ffdad5910800000000000000
+      internalID: 1827808337010776940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Knight_Attack1.ng_9
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 0
+        width: 37
+        height: 24
+      alignment: 9
+      pivot: {x: 0.2545669, y: 0.39683366}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50058af67f823ed10800000000000000
+      internalID: 2153610090008563717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8b989c50de249524290227be50407da8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Black_Knight_Attack1.ng_0: 3404760840329938589
+      Black_Knight_Attack1.ng_1: 4277344277888230784
+      Black_Knight_Attack1.ng_2: -4189181542830686781
+      Black_Knight_Attack1.ng_3: -120044992892397171
+      Black_Knight_Attack1.ng_4: -1057355857718007463
+      Black_Knight_Attack1.ng_5: 7560334926534671690
+      Black_Knight_Attack1.ng_6: -3154251977211236073
+      Black_Knight_Attack1.ng_7: 2183541301093877688
+      Black_Knight_Attack1.ng_8: 1827808337010776940
+      Black_Knight_Attack1.ng_9: 2153610090008563717
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

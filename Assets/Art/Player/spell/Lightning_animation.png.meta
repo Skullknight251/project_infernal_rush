@@ -1,0 +1,723 @@
+fileFormatVersion: 2
+guid: ae2ddfee9395dc24d89103c1ba6b7768
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6471030720784634416
+    second: Lightning_animation_0
+  - first:
+      213: -3088908039294891190
+    second: Lightning_animation_1
+  - first:
+      213: -8368408816462151223
+    second: Lightning_animation_2
+  - first:
+      213: 243317863314546822
+    second: Lightning_animation_3
+  - first:
+      213: -7736988489671786248
+    second: Lightning_animation_4
+  - first:
+      213: -2936473950381084290
+    second: Lightning_animation_5
+  - first:
+      213: 9063288385481877663
+    second: Lightning_animation_6
+  - first:
+      213: 144368819290228829
+    second: Lightning_animation_7
+  - first:
+      213: -4340563177196785600
+    second: Lightning_animation_8
+  - first:
+      213: 2471361415795194225
+    second: Lightning_animation_9
+  - first:
+      213: 5827676645224978371
+    second: Lightning_animation_10
+  - first:
+      213: 2807324964484225927
+    second: Lightning_animation_11
+  - first:
+      213: -1603003193643647331
+    second: Lightning_animation_12
+  - first:
+      213: 604462583955872934
+    second: Lightning_animation_13
+  - first:
+      213: 548396796371351772
+    second: Lightning_animation_14
+  - first:
+      213: -7107466670628270469
+    second: Lightning_animation_15
+  - first:
+      213: -3458610690398342565
+    second: Lightning_animation_16
+  - first:
+      213: 6401536822847112302
+    second: Lightning_animation_17
+  - first:
+      213: -8010121759215016389
+    second: Lightning_animation_18
+  - first:
+      213: -4093535499086430317
+    second: Lightning_animation_19
+  - first:
+      213: -6233322433523151864
+    second: Lightning_animation_20
+  - first:
+      213: 6725115056263301458
+    second: Lightning_animation_21
+  - first:
+      213: -7023187109702307442
+    second: Lightning_animation_22
+  - first:
+      213: -7878539865233404650
+    second: Lightning_animation_23
+  - first:
+      213: 1040937803364045573
+    second: Lightning_animation_24
+  - first:
+      213: 1498563373753484525
+    second: Lightning_animation_25
+  - first:
+      213: -2612336742358870497
+    second: Lightning_animation_26
+  - first:
+      213: 5902260524527538305
+    second: Lightning_animation_27
+  - first:
+      213: 3203718585181493107
+    second: Lightning_animation_28
+  - first:
+      213: -8773455571566642416
+    second: Lightning_animation_29
+  - first:
+      213: 2673010300797277065
+    second: Lightning_animation_30
+  - first:
+      213: 2674138135174329890
+    second: Lightning_animation_31
+  - first:
+      213: -8863907982198757888
+    second: Lightning_animation_32
+  - first:
+      213: -7606374554234382280
+    second: Lightning_animation_33
+  - first:
+      213: 2965920737220258344
+    second: Lightning_animation_34
+  - first:
+      213: 6066525079118390221
+    second: Lightning_animation_35
+  - first:
+      213: -3594805801676075494
+    second: Lightning_animation_36
+  - first:
+      213: 832229236731587471
+    second: Lightning_animation_37
+  - first:
+      213: 5952540869948702143
+    second: Lightning_animation_38
+  - first:
+      213: -7847082217425083424
+    second: Lightning_animation_39
+  - first:
+      213: -8795531266959370595
+    second: Lightning_animation_40
+  - first:
+      213: 737238376248481347
+    second: Lightning_animation_41
+  - first:
+      213: 4940151360439904264
+    second: Lightning_animation_42
+  - first:
+      213: -2286042315310077290
+    second: Lightning_animation_43
+  - first:
+      213: 7023172083267501205
+    second: Lightning_animation_44
+  - first:
+      213: 7654362505325583386
+    second: Lightning_animation_45
+  - first:
+      213: -8572704337834819464
+    second: Lightning_animation_46
+  - first:
+      213: -7413921784854707176
+    second: Lightning_animation_47
+  - first:
+      213: 1258431241736798907
+    second: Lightning_animation_48
+  - first:
+      213: 8664722682549313228
+    second: Lightning_animation_49
+  - first:
+      213: 7471650963004664733
+    second: Lightning_animation_50
+  - first:
+      213: 3606386660342049677
+    second: Lightning_animation_51
+  - first:
+      213: 6836985337361743953
+    second: Lightning_animation_52
+  - first:
+      213: -8301028925619466016
+    second: Lightning_animation_53
+  - first:
+      213: -6114065359677415749
+    second: Lightning_animation_54
+  - first:
+      213: 7116078405538308799
+    second: Lightning_animation_55
+  - first:
+      213: -3804583839931189220
+    second: Lightning_animation_56
+  - first:
+      213: -758950945957373261
+    second: Lightning_animation_57
+  - first:
+      213: -5005262169592216198
+    second: Lightning_animation_58
+  - first:
+      213: 4635477549346689691
+    second: Lightning_animation_59
+  - first:
+      213: -7206820917935125140
+    second: Lightning_animation_60
+  - first:
+      213: -7280308173000075635
+    second: Lightning_animation_61
+  - first:
+      213: 1271266335901240059
+    second: Lightning_animation_62
+  - first:
+      213: -7802319508992038102
+    second: Lightning_animation_63
+  - first:
+      213: 7703853724718217659
+    second: Lightning_animation_64
+  - first:
+      213: 4878441883775811185
+    second: Lightning_animation_65
+  - first:
+      213: 5415112524931165049
+    second: Lightning_animation_66
+  - first:
+      213: -9191400891751059222
+    second: Lightning_animation_67
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lightning_animation_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 73
+        width: 250
+        height: 29
+      alignment: 9
+      pivot: {x: 0.009346729, y: 0.49802345}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ddedfc28d74236a0800000000000000
+      internalID: -6471030720784634416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_animation_1
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 64
+        width: 253
+        height: 38
+      alignment: 9
+      pivot: {x: 0.0076273438, y: 0.6134553}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4bcaf5018ef125d0800000000000000
+      internalID: -3088908039294891190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_animation_2
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 64
+        width: 253
+        height: 38
+      alignment: 9
+      pivot: {x: 0.0074918843, y: 0.6192386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c1c687e4807ddb80800000000000000
+      internalID: -8368408816462151223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_animation_3
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 64
+        width: 253
+        height: 38
+      alignment: 9
+      pivot: {x: 0.007492126, y: 0.6192386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 680ee5abe40706300800000000000000
+      internalID: 243317863314546822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_animation_4
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 73
+        width: 250
+        height: 29
+      alignment: 9
+      pivot: {x: 0.0069038086, y: 0.51230305}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f0c3d106f1b0a490800000000000000
+      internalID: -7736988489671786248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_animation_5
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 74
+        width: 249
+        height: 28
+      alignment: 9
+      pivot: {x: 0.0068486836, y: 0.4451828}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e71f85f008c8f37d0800000000000000
+      internalID: -2936473950381084290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_animation_19
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 75
+        width: 248
+        height: 27
+      alignment: 9
+      pivot: {x: 0.0071465275, y: 0.4256001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f708de627d037c0800000000000000
+      internalID: -4093535499086430317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_animation_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 256
+        height: 40
+      alignment: 9
+      pivot: {x: 0.008064111, y: 0.4974038}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3775f064415e57c20800000000000000
+      internalID: 3203718585181493107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_animation_29
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 42
+      alignment: 9
+      pivot: {x: 0.0051687513, y: 0.524126}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b391434ac6e3680800000000000000
+      internalID: -8773455571566642416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_animation_30
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 42
+      alignment: 9
+      pivot: {x: 0.0055375746, y: 0.5196681}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9835bf3d4b0781520800000000000000
+      internalID: 2673010300797277065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_animation_31
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 255
+        height: 42
+      alignment: 9
+      pivot: {x: 0.0062949657, y: 0.5196681}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226346b37727c1520800000000000000
+      internalID: 2674138135174329890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_animation_32
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2
+        width: 256
+        height: 40
+      alignment: 9
+      pivot: {x: 0.0054855645, y: 0.50582194}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0062b4737a21df480800000000000000
+      internalID: -8863907982198757888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_animation_42
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 4
+        width: 255
+        height: 37
+      alignment: 9
+      pivot: {x: 0.0047818054, y: 0.48188272}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 808eeaffc71fe8440800000000000000
+      internalID: 4940151360439904264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_animation_53
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 5
+        width: 256
+        height: 33
+      alignment: 9
+      pivot: {x: 0.0034122467, y: 0.5140682}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e095324c22dccc80800000000000000
+      internalID: -8301028925619466016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c1a4bb82a1573bf4382db4cf575fcb4a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Lightning_animation_0: -6471030720784634416
+      Lightning_animation_1: -3088908039294891190
+      Lightning_animation_10: 5827676645224978371
+      Lightning_animation_11: 2807324964484225927
+      Lightning_animation_12: -1603003193643647331
+      Lightning_animation_13: 604462583955872934
+      Lightning_animation_14: 548396796371351772
+      Lightning_animation_15: -7107466670628270469
+      Lightning_animation_16: -3458610690398342565
+      Lightning_animation_17: 6401536822847112302
+      Lightning_animation_18: -8010121759215016389
+      Lightning_animation_19: -4093535499086430317
+      Lightning_animation_2: -8368408816462151223
+      Lightning_animation_20: -6233322433523151864
+      Lightning_animation_21: 6725115056263301458
+      Lightning_animation_22: -7023187109702307442
+      Lightning_animation_23: -7878539865233404650
+      Lightning_animation_24: 1040937803364045573
+      Lightning_animation_25: 1498563373753484525
+      Lightning_animation_26: -2612336742358870497
+      Lightning_animation_27: 5902260524527538305
+      Lightning_animation_28: 3203718585181493107
+      Lightning_animation_29: -8773455571566642416
+      Lightning_animation_3: 243317863314546822
+      Lightning_animation_30: 2673010300797277065
+      Lightning_animation_31: 2674138135174329890
+      Lightning_animation_32: -8863907982198757888
+      Lightning_animation_33: -7606374554234382280
+      Lightning_animation_34: 2965920737220258344
+      Lightning_animation_35: 6066525079118390221
+      Lightning_animation_36: -3594805801676075494
+      Lightning_animation_37: 832229236731587471
+      Lightning_animation_38: 5952540869948702143
+      Lightning_animation_39: -7847082217425083424
+      Lightning_animation_4: -7736988489671786248
+      Lightning_animation_40: -8795531266959370595
+      Lightning_animation_41: 737238376248481347
+      Lightning_animation_42: 4940151360439904264
+      Lightning_animation_43: -2286042315310077290
+      Lightning_animation_44: 7023172083267501205
+      Lightning_animation_45: 7654362505325583386
+      Lightning_animation_46: -8572704337834819464
+      Lightning_animation_47: -7413921784854707176
+      Lightning_animation_48: 1258431241736798907
+      Lightning_animation_49: 8664722682549313228
+      Lightning_animation_5: -2936473950381084290
+      Lightning_animation_50: 7471650963004664733
+      Lightning_animation_51: 3606386660342049677
+      Lightning_animation_52: 6836985337361743953
+      Lightning_animation_53: -8301028925619466016
+      Lightning_animation_54: -6114065359677415749
+      Lightning_animation_55: 7116078405538308799
+      Lightning_animation_56: -3804583839931189220
+      Lightning_animation_57: -758950945957373261
+      Lightning_animation_58: -5005262169592216198
+      Lightning_animation_59: 4635477549346689691
+      Lightning_animation_6: 9063288385481877663
+      Lightning_animation_60: -7206820917935125140
+      Lightning_animation_61: -7280308173000075635
+      Lightning_animation_62: 1271266335901240059
+      Lightning_animation_63: -7802319508992038102
+      Lightning_animation_64: 7703853724718217659
+      Lightning_animation_65: 4878441883775811185
+      Lightning_animation_66: 5415112524931165049
+      Lightning_animation_67: -9191400891751059222
+      Lightning_animation_7: 144368819290228829
+      Lightning_animation_8: -4340563177196785600
+      Lightning_animation_9: 2471361415795194225
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

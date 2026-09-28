@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7150320bb90f3b24bb30cd48a5b82024, type: 3}
+  m_Name: ScytheSO
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponSO
+  itemID: scythe
+  item: {fileID: 0}
+  sprite: {fileID: 9184543827023351850, guid: 309802f0078faef4fb45480ba4de3c30, type: 3}
+  price: 1200
+  weaponObject: {fileID: 2903482636174010369, guid: 8844ce04b5c76574a9a225f438d7b041, type: 3}

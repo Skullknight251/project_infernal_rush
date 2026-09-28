@@ -1,0 +1,1083 @@
+fileFormatVersion: 2
+guid: 182d7dc4080797c42a8414c2015b1642
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4167052434671713546
+    second: FireSkull_0
+  - first:
+      213: -3901754906175261892
+    second: FireSkull_1
+  - first:
+      213: 7572926821118116580
+    second: FireSkull_2
+  - first:
+      213: 8655741726802869228
+    second: FireSkull_3
+  - first:
+      213: 6313345181407733334
+    second: FireSkull_4
+  - first:
+      213: 2478305849262091207
+    second: FireSkull_5
+  - first:
+      213: -684644026892219384
+    second: FireSkull_6
+  - first:
+      213: -1076368648691313146
+    second: FireSkull_7
+  - first:
+      213: 6816815873277088307
+    second: FireSkull_8
+  - first:
+      213: 1119612890519983776
+    second: FireSkull_9
+  - first:
+      213: -5373802942725010567
+    second: FireSkull_10
+  - first:
+      213: 4868957701174811398
+    second: FireSkull_11
+  - first:
+      213: -3239749209918221450
+    second: FireSkull_12
+  - first:
+      213: 136656640157442721
+    second: FireSkull_13
+  - first:
+      213: 7967806238506314088
+    second: FireSkull_14
+  - first:
+      213: 7852498582120256276
+    second: FireSkull_15
+  - first:
+      213: -2963936884882783248
+    second: FireSkull_16
+  - first:
+      213: 5409869466827344562
+    second: FireSkull_17
+  - first:
+      213: 7978068324645122252
+    second: FireSkull_18
+  - first:
+      213: 5957311014895595496
+    second: FireSkull_19
+  - first:
+      213: -3854541151992520623
+    second: FireSkull_20
+  - first:
+      213: -6150128873698226875
+    second: FireSkull_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FireSkull_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5
+        width: 13
+        height: 22
+      alignment: 9
+      pivot: {x: 0.57753205, y: 0.25110722}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f247fe73e7ab26c0800000000000000
+      internalID: -4167052434671713546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireSkull_09
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 5
+        width: 28
+        height: 22
+      alignment: 9
+      pivot: {x: 0.80571586, y: 0.29575557}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3339c0d59e2ad9c0800000000000000
+      internalID: -3901754906175261892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireSkull_010
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 5
+        width: 22
+        height: 22
+      alignment: 9
+      pivot: {x: 0.7481294, y: 0.24870946}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e206ca12d0781960800000000000000
+      internalID: 7572926821118116580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireSkull_017
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 2
+        width: 13
+        height: 25
+      alignment: 9
+      pivot: {x: 0.96406204, y: 0.22174582}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceb7c9d8d3f5f1870800000000000000
+      internalID: 8655741726802869228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireSkull_016
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 0
+        width: 28
+        height: 27
+      alignment: 9
+      pivot: {x: 0.40930828, y: 0.38786343}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6566b323ef18d9750800000000000000
+      internalID: 6313345181407733334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireSkull_018
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 5
+        width: 14
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5371312, y: 0.25132123}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb2a0e0a06b46220800000000000000
+      internalID: 2478305849262091207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireSkull_020
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 3
+        width: 13
+        height: 24
+      alignment: 9
+      pivot: {x: 0.57616955, y: 0.22975409}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c0f7b82e7af76f0800000000000000
+      internalID: -684644026892219384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireSkull_019
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 5
+        width: 13
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5780734, y: 0.25244644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6061367ba68ff01f0800000000000000
+      internalID: -1076368648691313146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireSkull_022
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 4
+        width: 26
+        height: 23
+      alignment: 9
+      pivot: {x: 0.28850144, y: 0.32739982}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 332dce17be13a9e50800000000000000
+      internalID: 6816815873277088307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireSkull_023
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 0
+        width: 28
+        height: 27
+      alignment: 9
+      pivot: {x: 0.2673645, y: 0.38988936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a65461fdf9a98f00800000000000000
+      internalID: 1119612890519983776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireSkull_025
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 5
+        width: 14
+        height: 22
+      alignment: 9
+      pivot: {x: 0.53422326, y: 0.24954562}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b4de9f1ba6c65b0800000000000000
+      internalID: -5373802942725010567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireSkull_024
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 2
+        width: 13
+        height: 25
+      alignment: 9
+      pivot: {x: 0.57679164, y: 0.21942677}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b5dec7b33029340800000000000000
+      internalID: 4868957701174811398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireSkull_027
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 5
+        width: 87
+        height: 22
+      alignment: 9
+      pivot: {x: 0.005889542, y: 0.5215923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 673d87d22491a03d0800000000000000
+      internalID: -3239749209918221450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireSkull_031
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 5
+        width: 14
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5338091, y: 0.2519291}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a268cc7d7085e100800000000000000
+      internalID: 136656640157442721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireSkull_028
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 6
+        width: 29
+        height: 21
+      alignment: 9
+      pivot: {x: 0.60474265, y: 0.26549998}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8696f450f85539e60800000000000000
+      internalID: 7967806238506314088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireSkull_029
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 5
+        width: 22
+        height: 22
+      alignment: 9
+      pivot: {x: 0.34088135, y: 0.25063705}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413598a2bdda9fc60800000000000000
+      internalID: 7852498582120256276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireSkull_030
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 2
+        width: 13
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5752376, y: 0.21986632}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f342e75b1bfdd6d0800000000000000
+      internalID: -2963936884882783248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireSkull_032
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 5
+        width: 13
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5773644, y: 0.24908851}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bac97b0e97b31b40800000000000000
+      internalID: 5409869466827344562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireSkull_035
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 17
+        width: 11
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5896107, y: 0.45204908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc0b4442fdac7be60800000000000000
+      internalID: 7978068324645122252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireSkull_021
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 5
+        width: 13
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5780734, y: 0.250196}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8efaf5b0ece9ca250800000000000000
+      internalID: 5957311014895595496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireSkull_026
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 11
+        width: 98
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1506c579e3be18ac0800000000000000
+      internalID: -3854541151992520623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireSkull_033
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 0
+        width: 11
+        height: 27
+      alignment: 9
+      pivot: {x: 0.59392756, y: 0.16802624}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54d0858cf5a56aaa0800000000000000
+      internalID: -6150128873698226875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireSkull_01
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 3
+        width: 13
+        height: 24
+      alignment: 9
+      pivot: {x: 0.57944167, y: 0.26853764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c30ce38dd714a04da58800a7b0d8db7
+      internalID: 282087408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireSkull_02
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 5
+        width: 13
+        height: 22
+      alignment: 9
+      pivot: {x: 0.57660496, y: 0.33896542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423920e2dba1bec4a83d16835e5d0422
+      internalID: 1666085302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireSkull_03
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 5
+        width: 13
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5802087, y: 0.29334876}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733b9373b1bc02941b4a6176ae67c54c
+      internalID: 1646642759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireSkull_04
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 4
+        width: 13
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5753828, y: 0.23990391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b83f0b5db4bf642b35eeb83fb73ff0
+      internalID: -258867705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireSkull_05
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 2
+        width: 13
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5806456, y: 0.17891851}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b67600a0312c2459fd3453f1d73fc2
+      internalID: 1574835522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireSkull_06
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 5
+        width: 13
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5784959, y: 0.25015524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb010521a38495740988afa9a7a8e60f
+      internalID: -48734036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireSkull_07
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 3
+        width: 13
+        height: 24
+      alignment: 9
+      pivot: {x: 0.578493, y: 0.2307369}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e323472b7cbdb4cb0e2c3d2669a2e6
+      internalID: 484580834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireSkull_08
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 5
+        width: 13
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5802806, y: 0.25120944}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5b980211e729248943a9ff388861da
+      internalID: -1316228271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireSkull_011
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 2
+        width: 13
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5789337, y: 0.22190998}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755ea4533b49ed34a8c46ac0b1de2cc4
+      internalID: -1097710767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireSkull_012
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 5
+        width: 13
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5769595, y: 0.25045598}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b502b7e7abb2ee44a51c8746d232b2f
+      internalID: 139384049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireSkull_013
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 3
+        width: 13
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5789337, y: 0.23277028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169264670985adc418fac6c9b7d6ab7d
+      internalID: -419982461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireSkull_014
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 5
+        width: 13
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5749864, y: 0.25045598}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5c75ccc689b344f9f2b7023c38db21
+      internalID: -578358830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireSkull_015
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 4
+        width: 27
+        height: 23
+      alignment: 9
+      pivot: {x: 0.39014238, y: 0.32455242}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef28e0d58264a49498f0996c71248ee2
+      internalID: 781020260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireSkull_034
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 4
+        width: 11
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5896107, y: 0.19538336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5c9d46549ff474b9843fdbfbc8d2e1
+      internalID: 525119990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireSkull_036
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 17
+        width: 11
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5944491, y: 0.45204908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7de49921c0bac2448d47240885a6ff9
+      internalID: 806822206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireSkull_037
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 16
+        width: 10
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5479614, y: 0.5896057}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47463505e10cc84ea43d98d82c57883
+      internalID: -76629075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: fb44fb4764aac284c9564d5996a515d9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FireSkull_0: -4167052434671713546
+      FireSkull_01: 282087408
+      FireSkull_010: 7572926821118116580
+      FireSkull_011: -1097710767
+      FireSkull_012: 139384049
+      FireSkull_013: -419982461
+      FireSkull_014: -578358830
+      FireSkull_015: 781020260
+      FireSkull_016: 6313345181407733334
+      FireSkull_017: 8655741726802869228
+      FireSkull_018: 2478305849262091207
+      FireSkull_019: -1076368648691313146
+      FireSkull_02: 1666085302
+      FireSkull_020: -684644026892219384
+      FireSkull_021: 5957311014895595496
+      FireSkull_022: 6816815873277088307
+      FireSkull_023: 1119612890519983776
+      FireSkull_024: 4868957701174811398
+      FireSkull_025: -5373802942725010567
+      FireSkull_026: -3854541151992520623
+      FireSkull_027: -3239749209918221450
+      FireSkull_028: 7967806238506314088
+      FireSkull_029: 7852498582120256276
+      FireSkull_03: 1646642759
+      FireSkull_030: -2963936884882783248
+      FireSkull_031: 136656640157442721
+      FireSkull_032: 5409869466827344562
+      FireSkull_033: -6150128873698226875
+      FireSkull_034: 525119990
+      FireSkull_035: 7978068324645122252
+      FireSkull_036: 806822206
+      FireSkull_037: -76629075
+      FireSkull_04: -258867705
+      FireSkull_05: 1574835522
+      FireSkull_06: -48734036
+      FireSkull_07: 484580834
+      FireSkull_08: -1316228271
+      FireSkull_09: -3901754906175261892
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7150320bb90f3b24bb30cd48a5b82024, type: 3}
+  m_Name: BigSwordSO
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponSO
+  itemID: big_sword
+  item: {fileID: 0}
+  sprite: {fileID: 1823141416597698987, guid: f5f6e0f4322afc84c82f5d256deafeb6, type: 3}
+  price: 1
+  weaponObject: {fileID: 8469208472041153548, guid: 91bf337568aebca4893ac9fb71db7e03, type: 3}

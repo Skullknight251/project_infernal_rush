@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b85abcfdab022cd4aa805d4bf7ff6964, type: 3}
+  m_Name: SwapToSpearSO
+  m_EditorClassIdentifier: Assembly-CSharp::SkillSO
+  buttonType: 5
+  weapon: {fileID: 7306371763746533594, guid: a8f09309f93096d4baae15ea7f1e513b, type: 3}
+  prefab: {fileID: 8221577758860146618, guid: a2978e161e5215b4dae604ac772eb2e9, type: 3}

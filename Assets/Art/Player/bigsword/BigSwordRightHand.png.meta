@@ -1,0 +1,832 @@
+fileFormatVersion: 2
+guid: e857d68924848da498fa06fbcaf8d386
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7531743369525344254
+    second: BigSwordRightHand_0
+  - first:
+      213: 6718994223916155593
+    second: BigSwordRightHand_1
+  - first:
+      213: -8294387727818615188
+    second: BigSwordRightHand_2
+  - first:
+      213: 4655640767896541274
+    second: BigSwordRightHand_3
+  - first:
+      213: -5609684297858982704
+    second: BigSwordRightHand_4
+  - first:
+      213: -2776602328661323459
+    second: BigSwordRightHand_5
+  - first:
+      213: -4271154028677506534
+    second: BigSwordRightHand_6
+  - first:
+      213: 3762253790398199630
+    second: BigSwordRightHand_7
+  - first:
+      213: 6097077232294003306
+    second: BigSwordRightHand_8
+  - first:
+      213: 5809095724466255571
+    second: BigSwordRightHand_9
+  - first:
+      213: -7006608044473890932
+    second: BigSwordRightHand_10
+  - first:
+      213: -7257879645833819668
+    second: BigSwordRightHand_11
+  - first:
+      213: 5596760319976130522
+    second: BigSwordRightHand_12
+  - first:
+      213: -1482125828773200841
+    second: BigSwordRightHand_13
+  - first:
+      213: 1965431393453675478
+    second: BigSwordRightHand_14
+  - first:
+      213: -2517927651304059657
+    second: BigSwordRightHand_15
+  - first:
+      213: -8428550223353288207
+    second: BigSwordRightHand_16
+  - first:
+      213: 2070630946938148609
+    second: BigSwordRightHand_17
+  - first:
+      213: 1797171713924785472
+    second: BigSwordRightHand_18
+  - first:
+      213: 6548017782288448857
+    second: BigSwordRightHand_19
+  - first:
+      213: 3194176036732851919
+    second: BigSwordRightHand_20
+  - first:
+      213: -5467330177570381337
+    second: BigSwordRightHand_21
+  - first:
+      213: 8098924474380151448
+    second: BigSwordRightHand_22
+  - first:
+      213: -322970333468479949
+    second: BigSwordRightHand_23
+  - first:
+      213: 8083392654698010734
+    second: BigSwordRightHand_24
+  - first:
+      213: 3339343609037376594
+    second: BigSwordRightHand_25
+  - first:
+      213: 244467287752372186
+    second: BigSwordRightHand_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BigSwordRightHand_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 83
+        width: 34
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef736ff80b0268860800000000000000
+      internalID: 7531743369525344254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigSwordRightHand_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 83
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c28c6cd5a9ae3d50800000000000000
+      internalID: 6718994223916155593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigSwordRightHand_2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 83
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66130e9e4a64ec80800000000000000
+      internalID: -8294387727818615188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigSwordRightHand_3
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 83
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a58dc4c9c982c9040800000000000000
+      internalID: 4655640767896541274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigSwordRightHand_4
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 83
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc570c3ad56622b0800000000000000
+      internalID: -5609684297858982704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigSwordRightHand_5
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 83
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d319e95a4e68779d0800000000000000
+      internalID: -2776602328661323459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigSwordRightHand_6
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 83
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ad2bb5a00d9b4c0800000000000000
+      internalID: -4271154028677506534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigSwordRightHand_7
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 83
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e473d8b93e5363430800000000000000
+      internalID: 3762253790398199630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigSwordRightHand_8
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 74
+        width: 37
+        height: 28
+      alignment: 9
+      pivot: {x: 0.90465647, y: 0.9102195}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a628107607b2d9450800000000000000
+      internalID: 6097077232294003306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigSwordRightHand_9
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 74
+        width: 37
+        height: 28
+      alignment: 9
+      pivot: {x: 0.9080753, y: 0.947228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d63d0398cd0e9050800000000000000
+      internalID: 5809095724466255571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigSwordRightHand_10
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 74
+        width: 37
+        height: 28
+      alignment: 9
+      pivot: {x: 0.9049452, y: 0.9104598}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c874dbc2b1783ce90800000000000000
+      internalID: -7006608044473890932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigSwordRightHand_11
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 74
+        width: 37
+        height: 28
+      alignment: 9
+      pivot: {x: 0.9064562, y: 0.94508827}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce9898f7ae4d64b90800000000000000
+      internalID: -7257879645833819668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigSwordRightHand_12
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 62
+        width: 28
+        height: 40
+      alignment: 9
+      pivot: {x: 0.8766218, y: 0.9343899}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad7cd2dabdfabad40800000000000000
+      internalID: 5596760319976130522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigSwordRightHand_13
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 62
+        width: 28
+        height: 40
+      alignment: 9
+      pivot: {x: 0.8766218, y: 0.9373854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73cba8f496e6e6be0800000000000000
+      internalID: -1482125828773200841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigSwordRightHand_14
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 62
+        width: 28
+        height: 40
+      alignment: 9
+      pivot: {x: 0.874479, y: 0.93588716}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d31535607d964b10800000000000000
+      internalID: 1965431393453675478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigSwordRightHand_15
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 83
+        width: 46
+        height: 19
+      alignment: 9
+      pivot: {x: 0.9233186, y: 0.55991644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc43e544268e0dd0800000000000000
+      internalID: -2517927651304059657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigSwordRightHand_16
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 83
+        width: 37
+        height: 19
+      alignment: 9
+      pivot: {x: 0.90321803, y: 0.70182157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f9ec7d6a36c70b80800000000000000
+      internalID: -8428550223353288207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigSwordRightHand_17
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 74
+        width: 37
+        height: 28
+      alignment: 9
+      pivot: {x: 0.90483797, y: 0.94508827}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107dd2520eb5cbc10800000000000000
+      internalID: 2070630946938148609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigSwordRightHand_18
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 51
+        width: 72
+        height: 51
+      alignment: 9
+      pivot: {x: 0.47919804, y: 0.44008473}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 045edd8e626d0f810800000000000000
+      internalID: 1797171713924785472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigSwordRightHand_19
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 45
+        width: 55
+        height: 57
+      alignment: 9
+      pivot: {x: 0.2647006, y: 0.64085495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d7e38ea7b3fda50800000000000000
+      internalID: 6548017782288448857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigSwordRightHand_20
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 46
+        width: 43
+        height: 56
+      alignment: 9
+      pivot: {x: 0.8734358, y: 0.756782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc6d6839e2ef35c20800000000000000
+      internalID: 3194176036732851919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigSwordRightHand_21
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 48
+        width: 104
+        height: 54
+      alignment: 9
+      pivot: {x: 0.6117665, y: 0.13717772}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e1e420bb242024b0800000000000000
+      internalID: -5467330177570381337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigSwordRightHand_22
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 0
+        width: 55
+        height: 102
+      alignment: 9
+      pivot: {x: 0.15318714, y: 0.38690367}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a652646e8256070800000000000000
+      internalID: 8098924474380151448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigSwordRightHand_23
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 83
+        width: 45
+        height: 19
+      alignment: 9
+      pivot: {x: 0.94406736, y: 0.5461739}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e2f906134948bf0800000000000000
+      internalID: -322970333468479949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigSwordRightHand_24
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 70
+        width: 50
+        height: 32
+      alignment: 9
+      pivot: {x: 0.93183106, y: 0.7650199}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e68d643bacafd2070800000000000000
+      internalID: 8083392654698010734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigSwordRightHand_25
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 75
+        width: 35
+        height: 27
+      alignment: 9
+      pivot: {x: 0.7604074, y: 0.90435594}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25cc4afd15bb75e20800000000000000
+      internalID: 3339343609037376594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigSwordRightHand_26
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 59
+        width: 58
+        height: 43
+      alignment: 9
+      pivot: {x: 0.43865335, y: 0.61334705}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adfeea5f3b5846300800000000000000
+      internalID: 244467287752372186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 53fd76f45f7965e4fbd9d25db23197bf
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BigSwordRightHand_0: 7531743369525344254
+      BigSwordRightHand_1: 6718994223916155593
+      BigSwordRightHand_10: -7006608044473890932
+      BigSwordRightHand_11: -7257879645833819668
+      BigSwordRightHand_12: 5596760319976130522
+      BigSwordRightHand_13: -1482125828773200841
+      BigSwordRightHand_14: 1965431393453675478
+      BigSwordRightHand_15: -2517927651304059657
+      BigSwordRightHand_16: -8428550223353288207
+      BigSwordRightHand_17: 2070630946938148609
+      BigSwordRightHand_18: 1797171713924785472
+      BigSwordRightHand_19: 6548017782288448857
+      BigSwordRightHand_2: -8294387727818615188
+      BigSwordRightHand_20: 3194176036732851919
+      BigSwordRightHand_21: -5467330177570381337
+      BigSwordRightHand_22: 8098924474380151448
+      BigSwordRightHand_23: -322970333468479949
+      BigSwordRightHand_24: 8083392654698010734
+      BigSwordRightHand_25: 3339343609037376594
+      BigSwordRightHand_26: 244467287752372186
+      BigSwordRightHand_3: 4655640767896541274
+      BigSwordRightHand_4: -5609684297858982704
+      BigSwordRightHand_5: -2776602328661323459
+      BigSwordRightHand_6: -4271154028677506534
+      BigSwordRightHand_7: 3762253790398199630
+      BigSwordRightHand_8: 6097077232294003306
+      BigSwordRightHand_9: 5809095724466255571
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

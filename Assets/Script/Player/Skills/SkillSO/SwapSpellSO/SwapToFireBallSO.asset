@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b85abcfdab022cd4aa805d4bf7ff6964, type: 3}
+  m_Name: SwapToFireBallSO
+  m_EditorClassIdentifier: Assembly-CSharp::SkillSO
+  buttonType: 6
+  weapon: {fileID: 5227603514827947003, guid: 711de318fff5c7b4694c3c1d7b1d7aca, type: 3}
+  prefab: {fileID: 1080423367776396410, guid: 6c413f639f1770140a42cf7c66a4d3ce, type: 3}

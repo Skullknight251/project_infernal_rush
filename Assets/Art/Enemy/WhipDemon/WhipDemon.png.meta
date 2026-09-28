@@ -1,0 +1,1115 @@
+fileFormatVersion: 2
+guid: 599af9d377f462a46a729a4e4902794d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1331358296965334069
+    second: WhipDemon_0
+  - first:
+      213: 5205131633982058951
+    second: WhipDemon_1
+  - first:
+      213: -4447902284802275832
+    second: WhipDemon_2
+  - first:
+      213: 3669377631491734533
+    second: WhipDemon_3
+  - first:
+      213: 376771377278781727
+    second: WhipDemon_4
+  - first:
+      213: 8797348107939872379
+    second: WhipDemon_5
+  - first:
+      213: 2819660518709319639
+    second: WhipDemon_6
+  - first:
+      213: -8816556500621583319
+    second: WhipDemon_7
+  - first:
+      213: -8057297543305809859
+    second: WhipDemon_8
+  - first:
+      213: 7673148648411367284
+    second: WhipDemon_9
+  - first:
+      213: 6115013955675671405
+    second: WhipDemon_10
+  - first:
+      213: -7155901982017734600
+    second: WhipDemon_11
+  - first:
+      213: 3992796174224037288
+    second: WhipDemon_12
+  - first:
+      213: 7120511663744846717
+    second: WhipDemon_13
+  - first:
+      213: -8763606547644514897
+    second: WhipDemon_14
+  - first:
+      213: 1162007000419421272
+    second: WhipDemon_15
+  - first:
+      213: -2741912487376699089
+    second: WhipDemon_16
+  - first:
+      213: -3436248217221059210
+    second: WhipDemon_17
+  - first:
+      213: -6654397399878762915
+    second: WhipDemon_18
+  - first:
+      213: -2162358945183960032
+    second: WhipDemon_19
+  - first:
+      213: 5268545937229903721
+    second: WhipDemon_20
+  - first:
+      213: 7907001119408240690
+    second: WhipDemon_21
+  - first:
+      213: 5281641463754532676
+    second: WhipDemon_22
+  - first:
+      213: -4767710225148212013
+    second: WhipDemon_23
+  - first:
+      213: -3278228284942007817
+    second: WhipDemon_24
+  - first:
+      213: 8256844856713094027
+    second: WhipDemon_25
+  - first:
+      213: 5646563668385111142
+    second: WhipDemon_26
+  - first:
+      213: 8098221241132916810
+    second: WhipDemon_27
+  - first:
+      213: 3288518831796911332
+    second: WhipDemon_28
+  - first:
+      213: -6892988556937359424
+    second: WhipDemon_29
+  - first:
+      213: -7151324040802796775
+    second: WhipDemon_30
+  - first:
+      213: -4385689853740563030
+    second: WhipDemon_31
+  - first:
+      213: -4447010079101243822
+    second: WhipDemon_32
+  - first:
+      213: 4006068312770575407
+    second: WhipDemon_33
+  - first:
+      213: -6377654008636928202
+    second: WhipDemon_34
+  - first:
+      213: 469281484061263271
+    second: WhipDemon_35
+  - first:
+      213: -3913563101622075565
+    second: WhipDemon_36
+  - first:
+      213: 238405531637223002
+    second: WhipDemon_37
+  - first:
+      213: 2713291580717716225
+    second: WhipDemon_38
+  - first:
+      213: 83042127395127785
+    second: WhipDemon_39
+  - first:
+      213: -260495706859626946
+    second: WhipDemon_40
+  - first:
+      213: 5494370649860989230
+    second: WhipDemon_41
+  - first:
+      213: -1059470630281276644
+    second: WhipDemon_42
+  - first:
+      213: 5257898861885786794
+    second: WhipDemon_43
+  - first:
+      213: 864993590611535923
+    second: WhipDemon_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WhipDemon_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5344367315fe97210800000000000000
+      internalID: 1331358296965334069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipDemon_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 18
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c136a4a4a75c3840800000000000000
+      internalID: 5205131633982058951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipDemon_2
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 18
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80646be1070e542c0800000000000000
+      internalID: -4447902284802275832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipDemon_3
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 18
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c34dfb38f3ce230800000000000000
+      internalID: 3669377631491734533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipDemon_4
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 18
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f198c38429f8a3500800000000000000
+      internalID: 376771377278781727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipDemon_5
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 18
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ef53b6e75761a70800000000000000
+      internalID: 8797348107939872379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipDemon_6
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 19
+        width: 24
+        height: 23
+      alignment: 9
+      pivot: {x: 0.6034813, y: 0.49880028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7dcd47d42712720800000000000000
+      internalID: 2819660518709319639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipDemon_7
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 19
+        width: 23
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5889912, y: 0.54553026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c1a46239c45a580800000000000000
+      internalID: -8816556500621583319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipDemon_8
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 19
+        width: 24
+        height: 23
+      alignment: 9
+      pivot: {x: 0.6032817, y: 0.58645463}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3031a1e29abe2090800000000000000
+      internalID: -8057297543305809859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipDemon_9
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 19
+        width: 24
+        height: 23
+      alignment: 9
+      pivot: {x: 0.6041088, y: 0.54073817}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4770459aa008c7a60800000000000000
+      internalID: 7673148648411367284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipDemon_10
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 19
+        width: 22
+        height: 23
+      alignment: 9
+      pivot: {x: 0.56951904, y: 0.4989275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6bca904bc4ecd450800000000000000
+      internalID: 6115013955675671405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipDemon_11
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 19
+        width: 22
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5679266, y: 0.5424284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 838b15a9f0121bc90800000000000000
+      internalID: -7155901982017734600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipDemon_12
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 19
+        width: 24
+        height: 23
+      alignment: 9
+      pivot: {x: 0.60356647, y: 0.5878694}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a5992937f2496730800000000000000
+      internalID: 3992796174224037288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipDemon_13
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 24
+        width: 26
+        height: 18
+      alignment: 9
+      pivot: {x: 0.4808103, y: 0.41457272}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7b8980d1a321d260800000000000000
+      internalID: 7120511663744846717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipDemon_14
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 17
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: 0.6066686, y: 0.34160385}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fad7c58c64a616680800000000000000
+      internalID: -8763606547644514897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipDemon_15
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 17
+        width: 18
+        height: 25
+      alignment: 9
+      pivot: {x: 0.6385769, y: 0.38026726}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c4486d537402010800000000000000
+      internalID: 1162007000419421272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipDemon_16
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 9
+        width: 33
+        height: 33
+      alignment: 9
+      pivot: {x: 0.4087099, y: 0.22625865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2144b8be15c2f9d0800000000000000
+      internalID: -2741912487376699089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipDemon_17
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 24
+        width: 20
+        height: 18
+      alignment: 9
+      pivot: {x: 0.6265381, y: 0.4173676}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d2874d37eff40d0800000000000000
+      internalID: -3436248217221059210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipDemon_18
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 2
+        width: 48
+        height: 40
+      alignment: 9
+      pivot: {x: 0.27993393, y: 0.5870326}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e71f142d4d6a3a0800000000000000
+      internalID: -6654397399878762915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipDemon_19
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 25
+        width: 22
+        height: 17
+      alignment: 9
+      pivot: {x: 0.6584334, y: 0.43752873}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024fb6bfef1cdf1e0800000000000000
+      internalID: -2162358945183960032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipDemon_20
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 0
+        width: 45
+        height: 42
+      alignment: 9
+      pivot: {x: 0.32031047, y: 0.7729277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9677a6fad92ad1940800000000000000
+      internalID: 5268545937229903721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipDemon_21
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 10
+        width: 26
+        height: 32
+      alignment: 9
+      pivot: {x: 0.55421096, y: 0.70370436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 238b1f000af4bbd60800000000000000
+      internalID: 7907001119408240690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipDemon_22
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 24
+        width: 22
+        height: 18
+      alignment: 9
+      pivot: {x: 0.659704, y: 0.4726728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 447201e8de82c4940800000000000000
+      internalID: 5281641463754532676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipDemon_23
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 24
+        width: 19
+        height: 18
+      alignment: 9
+      pivot: {x: 0.65829307, y: 0.35816818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dc0b068fc0b5ddb0800000000000000
+      internalID: -4767710225148212013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipDemon_24
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 24
+        width: 19
+        height: 18
+      alignment: 9
+      pivot: {x: 0.7083194, y: 0.30389637}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f1c46f5eb46182d0800000000000000
+      internalID: -3278228284942007817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipDemon_25
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 31
+        width: 24
+        height: 11
+      alignment: 9
+      pivot: {x: 0.6875458, y: 0.22635823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8325e986a4369270800000000000000
+      internalID: 8256844856713094027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipDemon_27
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 10
+        width: 64
+        height: 32
+      alignment: 9
+      pivot: {x: 0.47575855, y: 0.5464634}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4020460059a26070800000000000000
+      internalID: 8098221241132916810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipDemon_31
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 14
+        width: 47
+        height: 28
+      alignment: 9
+      pivot: {x: 0.41600135, y: 0.6571136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa542cc7056e223c0800000000000000
+      internalID: -4385689853740563030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipDemon_34
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 26
+        width: 21
+        height: 16
+      alignment: 9
+      pivot: {x: 0.6434878, y: 0.40436602}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63f89da28750e77a0800000000000000
+      internalID: -6377654008636928202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipDemon_35
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 25
+        width: 21
+        height: 17
+      alignment: 9
+      pivot: {x: 0.6457287, y: 0.4390712}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a5c32df509338600800000000000000
+      internalID: 469281484061263271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipDemon_36
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 19
+        width: 25
+        height: 23
+      alignment: 9
+      pivot: {x: 0.579314, y: 0.5862115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f7db1181b30b9c0800000000000000
+      internalID: -3913563101622075565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipDemon_37
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 19
+        width: 25
+        height: 23
+      alignment: 9
+      pivot: {x: 0.58034426, y: 0.5873295}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e89b1619cfe4300800000000000000
+      internalID: 238405531637223002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipDemon_38
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 19
+        width: 25
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5807959, y: 0.58653075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 103dcb8215c87a520800000000000000
+      internalID: 2713291580717716225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipDemon_39
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 19
+        width: 25
+        height: 23
+      alignment: 9
+      pivot: {x: 0.57936037, y: 0.5862609}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e187c8ff56072100800000000000000
+      internalID: 83042127395127785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipDemon_40
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 19
+        width: 24
+        height: 23
+      alignment: 9
+      pivot: {x: 0.60517377, y: 0.5837852}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3e1e17e888826cf0800000000000000
+      internalID: -260495706859626946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhipDemon_41
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 25
+        width: 22
+        height: 17
+      alignment: 9
+      pivot: {x: 0.66091084, y: 0.43913066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e21eb41eefcef3c40800000000000000
+      internalID: 5494370649860989230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2186e6b45bc5ea744a6ed1f661c8794e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      WhipDemon_0: 1331358296965334069
+      WhipDemon_1: 5205131633982058951
+      WhipDemon_10: 6115013955675671405
+      WhipDemon_11: -7155901982017734600
+      WhipDemon_12: 3992796174224037288
+      WhipDemon_13: 7120511663744846717
+      WhipDemon_14: -8763606547644514897
+      WhipDemon_15: 1162007000419421272
+      WhipDemon_16: -2741912487376699089
+      WhipDemon_17: -3436248217221059210
+      WhipDemon_18: -6654397399878762915
+      WhipDemon_19: -2162358945183960032
+      WhipDemon_2: -4447902284802275832
+      WhipDemon_20: 5268545937229903721
+      WhipDemon_21: 7907001119408240690
+      WhipDemon_22: 5281641463754532676
+      WhipDemon_23: -4767710225148212013
+      WhipDemon_24: -3278228284942007817
+      WhipDemon_25: 8256844856713094027
+      WhipDemon_26: 5646563668385111142
+      WhipDemon_27: 8098221241132916810
+      WhipDemon_28: 3288518831796911332
+      WhipDemon_29: -6892988556937359424
+      WhipDemon_3: 3669377631491734533
+      WhipDemon_30: -7151324040802796775
+      WhipDemon_31: -4385689853740563030
+      WhipDemon_32: -4447010079101243822
+      WhipDemon_33: 4006068312770575407
+      WhipDemon_34: -6377654008636928202
+      WhipDemon_35: 469281484061263271
+      WhipDemon_36: -3913563101622075565
+      WhipDemon_37: 238405531637223002
+      WhipDemon_38: 2713291580717716225
+      WhipDemon_39: 83042127395127785
+      WhipDemon_4: 376771377278781727
+      WhipDemon_40: -260495706859626946
+      WhipDemon_41: 5494370649860989230
+      WhipDemon_42: -1059470630281276644
+      WhipDemon_43: 5257898861885786794
+      WhipDemon_44: 864993590611535923
+      WhipDemon_5: 8797348107939872379
+      WhipDemon_6: 2819660518709319639
+      WhipDemon_7: -8816556500621583319
+      WhipDemon_8: -8057297543305809859
+      WhipDemon_9: 7673148648411367284
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

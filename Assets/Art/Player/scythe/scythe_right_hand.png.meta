@@ -1,0 +1,782 @@
+fileFormatVersion: 2
+guid: 3c2c5b1d15ca4dd4fa293e51d8d9a020
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7319309285948041840
+    second: scythe_right_hand_0
+  - first:
+      213: 1746601323742014589
+    second: scythe_right_hand_1
+  - first:
+      213: -3302505049330479601
+    second: scythe_right_hand_2
+  - first:
+      213: 826361623643868977
+    second: scythe_right_hand_3
+  - first:
+      213: -4331475314844929352
+    second: scythe_right_hand_4
+  - first:
+      213: -3834520415647707811
+    second: scythe_right_hand_5
+  - first:
+      213: -8654044582697483347
+    second: scythe_right_hand_6
+  - first:
+      213: 310405893259946618
+    second: scythe_right_hand_7
+  - first:
+      213: 6871965111921007537
+    second: scythe_right_hand_8
+  - first:
+      213: 4438549856053869151
+    second: scythe_right_hand_9
+  - first:
+      213: -7004854545480391145
+    second: scythe_right_hand_10
+  - first:
+      213: 4880248574594468844
+    second: scythe_right_hand_11
+  - first:
+      213: 3979494730168891615
+    second: scythe_right_hand_12
+  - first:
+      213: -7586970803138489305
+    second: scythe_right_hand_13
+  - first:
+      213: 8804706834869895626
+    second: scythe_right_hand_14
+  - first:
+      213: -9136515821661391362
+    second: scythe_right_hand_15
+  - first:
+      213: 3130808135426021546
+    second: scythe_right_hand_16
+  - first:
+      213: -8955247002884449401
+    second: scythe_right_hand_17
+  - first:
+      213: 5243367817876956286
+    second: scythe_right_hand_18
+  - first:
+      213: -1603865242951510978
+    second: scythe_right_hand_19
+  - first:
+      213: -838397142065369704
+    second: scythe_right_hand_20
+  - first:
+      213: 4339755818183865434
+    second: scythe_right_hand_21
+  - first:
+      213: -4300961340661955452
+    second: scythe_right_hand_22
+  - first:
+      213: -7319560613445845509
+    second: scythe_right_hand_23
+  - first:
+      213: -832858328070650389
+    second: scythe_right_hand_24
+  - first:
+      213: 1230481529862197350
+    second: scythe_right_hand_25
+  - first:
+      213: 8850788790769506627
+    second: scythe_right_hand_26
+  - first:
+      213: 7460736245039617860
+    second: scythe_right_hand_27
+  - first:
+      213: -7226993726115959910
+    second: scythe_right_hand_28
+  - first:
+      213: -5066222818574432216
+    second: scythe_right_hand_29
+  - first:
+      213: -1466768930723825959
+    second: scythe_right_hand_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: scythe_right_hand_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 77
+        width: 45
+        height: 31
+      alignment: 9
+      pivot: {x: 0.50080466, y: 0.21160421}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07aa6262409639560800000000000000
+      internalID: 7319309285948041840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scythe_right_hand_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 77
+        width: 45
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7caed966ac2d3810800000000000000
+      internalID: 1746601323742014589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scythe_right_hand_2
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 77
+        width: 45
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0e09b1b7252b22d0800000000000000
+      internalID: -3302505049330479601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scythe_right_hand_3
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 78
+        width: 45
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13fce49b483d77b00800000000000000
+      internalID: 826361623643868977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scythe_right_hand_4
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 77
+        width: 45
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5019416, y: 0.18478611}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b27b49762283e3c0800000000000000
+      internalID: -4331475314844929352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scythe_right_hand_6
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 23
+        width: 78
+        height: 87
+      alignment: 9
+      pivot: {x: 0.4042832, y: 0.51123005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da34ce99d48a6e780800000000000000
+      internalID: -8654044582697483347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scythe_right_hand_7
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 62
+        width: 43
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5464932, y: 0.8323629}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a62fbe388ce4400800000000000000
+      internalID: 310405893259946618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scythe_right_hand_8
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 63
+        width: 34
+        height: 45
+      alignment: 9
+      pivot: {x: 0.8983908, y: 0.8762561}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bbddec2cdf1e5f50800000000000000
+      internalID: 6871965111921007537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scythe_right_hand_9
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 82
+        width: 45
+        height: 30
+      alignment: 9
+      pivot: {x: 0.6773166, y: 0.5812495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ab3ffd395e89d30800000000000000
+      internalID: 4438549856053869151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scythe_right_hand_10
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 77
+        width: 45
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5231364, y: 0.20985585}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7166c5977e1c9ce90800000000000000
+      internalID: -7004854545480391145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scythe_right_hand_14
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 65
+        width: 45
+        height: 35
+      alignment: 9
+      pivot: {x: 0.6094442, y: 0.098474994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac1cfdb873a903a70800000000000000
+      internalID: 8804706834869895626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scythe_right_hand_15
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 48
+        width: 55
+        height: 50
+      alignment: 9
+      pivot: {x: 0.40919134, y: 0.3897957}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5f22d7443943180800000000000000
+      internalID: -9136515821661391362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scythe_right_hand_16
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 69
+        width: 52
+        height: 35
+      alignment: 9
+      pivot: {x: 0.7987178, y: 0.8723125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa898f3596dd27b20800000000000000
+      internalID: 3130808135426021546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scythe_right_hand_19
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 59
+        width: 63
+        height: 42
+      alignment: 9
+      pivot: {x: 0.056795634, y: 0.55568004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3497462f0dedb9e0800000000000000
+      internalID: -1603865242951510978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scythe_right_hand_20
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 60
+        width: 34
+        height: 45
+      alignment: 9
+      pivot: {x: 0.8969278, y: 0.87708265}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89dad76cd3a6d54f0800000000000000
+      internalID: -838397142065369704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scythe_right_hand_21
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 60
+        width: 34
+        height: 45
+      alignment: 9
+      pivot: {x: 0.8978397, y: 0.8761297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a54b8c27ce8e93c30800000000000000
+      internalID: 4339755818183865434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scythe_right_hand_22
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 67
+        width: 45
+        height: 31
+      alignment: 9
+      pivot: {x: 0.83434784, y: 0.4999995}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4840829b27aef44c0800000000000000
+      internalID: -4300961340661955452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scythe_right_hand_23
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 41
+        width: 73
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfdbe9b1762bb6a90800000000000000
+      internalID: -7319560613445845509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scythe_right_hand_24
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 37
+        width: 71
+        height: 73
+      alignment: 9
+      pivot: {x: 0.5419974, y: 0.60862803}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be58f1763c71174f0800000000000000
+      internalID: -832858328070650389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scythe_right_hand_25
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 34
+        width: 73
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6609d1a9e6c831110800000000000000
+      internalID: 1230481529862197350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scythe_right_hand_26
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 65
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34953dff28154da70800000000000000
+      internalID: 8850788790769506627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scythe_right_hand_27
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 14
+        width: 101
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 447d770161cd98760800000000000000
+      internalID: 7460736245039617860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scythe_right_hand_28
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 65
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ba1e01f7f84bb90800000000000000
+      internalID: -7226993726115959910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scythe_right_hand_29
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 65
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82884e1403921b9b0800000000000000
+      internalID: -5066222818574432216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f9cc6da47328d0c4c9a43b4a5055de15
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      scythe_right_hand_0: 7319309285948041840
+      scythe_right_hand_1: 1746601323742014589
+      scythe_right_hand_10: -7004854545480391145
+      scythe_right_hand_11: 4880248574594468844
+      scythe_right_hand_12: 3979494730168891615
+      scythe_right_hand_13: -7586970803138489305
+      scythe_right_hand_14: 8804706834869895626
+      scythe_right_hand_15: -9136515821661391362
+      scythe_right_hand_16: 3130808135426021546
+      scythe_right_hand_17: -8955247002884449401
+      scythe_right_hand_18: 5243367817876956286
+      scythe_right_hand_19: -1603865242951510978
+      scythe_right_hand_2: -3302505049330479601
+      scythe_right_hand_20: -838397142065369704
+      scythe_right_hand_21: 4339755818183865434
+      scythe_right_hand_22: -4300961340661955452
+      scythe_right_hand_23: -7319560613445845509
+      scythe_right_hand_24: -832858328070650389
+      scythe_right_hand_25: 1230481529862197350
+      scythe_right_hand_26: 8850788790769506627
+      scythe_right_hand_27: 7460736245039617860
+      scythe_right_hand_28: -7226993726115959910
+      scythe_right_hand_29: -5066222818574432216
+      scythe_right_hand_3: 826361623643868977
+      scythe_right_hand_30: -1466768930723825959
+      scythe_right_hand_4: -4331475314844929352
+      scythe_right_hand_5: -3834520415647707811
+      scythe_right_hand_6: -8654044582697483347
+      scythe_right_hand_7: 310405893259946618
+      scythe_right_hand_8: 6871965111921007537
+      scythe_right_hand_9: 4438549856053869151
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

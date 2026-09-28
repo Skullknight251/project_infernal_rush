@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1899482b528718e459c675c3cc25d38a, type: 3}
+  m_Name: ComboTridentDemon_HellHound
+  m_EditorClassIdentifier: Assembly-CSharp::BossComboSO
+  waitForPreviousEnemiesToDie: 1
+  comboName: 
+  actionsInCombo:
+  - {fileID: 11400000, guid: e302f51d075b5c548bc7fc052b2f30a9, type: 2}
+  - {fileID: 11400000, guid: 2216afc53f106d04094a7080392e9ed9, type: 2}
+  - {fileID: 11400000, guid: 8b5cd4bc25763e6419264ebfbb709f0c, type: 2}
+  - {fileID: 11400000, guid: fd8833bb93bdc8646b0fb2b0ad259404, type: 2}
+  cooldownAfterCombo: 3
