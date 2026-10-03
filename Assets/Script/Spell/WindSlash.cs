@@ -1,4 +1,4 @@
-using Unity.VisualScripting;
+using System.Collections;
 using UnityEngine;
 
 public class WindSlash : MonoBehaviour
@@ -7,6 +7,8 @@ public class WindSlash : MonoBehaviour
     [SerializeField] private float speed = 30f;
 
     private Rigidbody2D rb;
+    private Coroutine deactivateCoroutine;
+
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -14,10 +16,21 @@ public class WindSlash : MonoBehaviour
 
     public void Setup(Vector2 direction)
     {
-        rb.linearVelocity = direction.normalized* speed;
+        rb.linearVelocity = direction.normalized * speed;
 
-        Destroy(gameObject, 3f);
+        if (deactivateCoroutine != null)
+        {
+            StopCoroutine(deactivateCoroutine);
+        }
+        deactivateCoroutine = StartCoroutine(DeactivateAfterTime(3f));
     }
+
+    private IEnumerator DeactivateAfterTime(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        SimplePoolManager.Instance.Despawn(gameObject);
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.TryGetComponent<HurtBox>(out HurtBox hurtBox))
@@ -27,7 +40,6 @@ public class WindSlash : MonoBehaviour
             if (enemy != null)
             {
                 enemy.TakeDamage(damage);
-                
             }
         }
     }

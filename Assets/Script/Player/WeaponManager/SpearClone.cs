@@ -13,31 +13,32 @@ public class SpearClone : MonoBehaviour, IShieldBlockable
     [SerializeField] private float attackRange;
 
     [SerializeField] private Vector3 target;
-    [SerializeField] private int damage;
+    [SerializeField] private int baseDamage = 10;
+    private int currentDamage;
     private Vector2 direction;
     public bool canPiercingAttack;
 
-    void Start()
+    private Vector3 startPosition;
+
+    void OnEnable()
     {
-        target = new Vector3(transform.position.x + attackRange, transform.position.y, 0);
+        startPosition = transform.position;
+        currentDamage = baseDamage;
     }
 
     void Update()
     {
-        //transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
-        //if (transform.position.x >= target.x)
-        //{
-        //    Destroy(gameObject);
-        //}
-        transform.position +=
-        (Vector3)(direction * speed * Time.deltaTime);
+        transform.position += (Vector3)(direction * speed * Time.deltaTime);
 
-        float angle =
-            Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0f, 0f, angle);
 
-        transform.rotation =
-            Quaternion.Euler(0f, 0f, angle);
+        if (Vector3.Distance(startPosition, transform.position) >= attackRange)
+        {
+            SimplePoolManager.Instance.Despawn(gameObject);
+        }
     }
+
     public void OnTriggerEnter2D(Collider2D other)
     {
         if (other.TryGetComponent<HurtBox>(out HurtBox hurtBox))
@@ -46,11 +47,11 @@ public class SpearClone : MonoBehaviour, IShieldBlockable
 
             if (enemy != null)
             {
-                enemy.TakeDamage(damage);
+                enemy.TakeDamage(currentDamage);
 
                 if (!canPiercingAttack)
                 {
-                    Destroy(gameObject);
+                    SimplePoolManager.Instance.Despawn(gameObject);
                 }
             }
         }
@@ -68,11 +69,11 @@ public class SpearClone : MonoBehaviour, IShieldBlockable
 
     public void AddDamage(int plusDamage)
     {
-        damage += plusDamage;
+        currentDamage += plusDamage;
     }
 
     public void OnBlockedByShield()
     {
-        Destroy(gameObject);
+        SimplePoolManager.Instance.Despawn(gameObject);
     }
 }

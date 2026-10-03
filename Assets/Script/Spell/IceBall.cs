@@ -5,22 +5,26 @@ public class IceBall : Spell
     public static IceBall Instance { get; private set; }
     [SerializeField] private IceShieldPrefab iceShieldPrefab;
 
-    public override void CastSpell(PlayerMovement playerMovement)
-    {
-        Transform castPoint = playerMovement.spellCastSpot;
-
-        IceShieldPrefab iceShield = Instantiate(iceShieldPrefab, castPoint);
-        iceShield.transform.localScale = iceShieldPrefab.transform.localScale;
-
-    }
-
     protected override void Awake()
     {
         base.Awake();
         Instance = this;
     }
-    void Update()
+
+    public override void CastSpell(PlayerMovement playerMovement)
     {
-        
+        base.CastSpell(playerMovement);
+
+        Transform castPoint = playerMovement.spellCastSpot;
+
+        GameObject iceShieldGO = SimplePoolManager.Instance.Spawn(iceShieldPrefab.gameObject, castPoint.position, castPoint.rotation);
+
+        iceShieldGO.transform.SetParent(castPoint);
+        iceShieldGO.transform.localScale = iceShieldPrefab.transform.localScale;
+        iceShieldGO.transform.localPosition = Vector3.zero;
+        iceShieldGO.transform.localRotation = Quaternion.identity;
+
+        IceShieldPrefab iceShield = iceShieldGO.GetComponent<IceShieldPrefab>();
+        iceShield.Setup();
     }
 }

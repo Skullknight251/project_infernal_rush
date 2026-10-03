@@ -1,18 +1,20 @@
+using System.Collections;
 using UnityEngine;
 
-public class FireballProjectile : MonoBehaviour,IShieldBlockable
+public class FireballProjectile : MonoBehaviour, IShieldBlockable
 {
-    [SerializeField] private bool canPiercingShield;
+    [SerializeField] private bool canPierceShield;
 
-    public bool CanPierceShield => canPiercingShield;
+    public bool CanPierceShield => canPierceShield;
 
     [SerializeField] private float speed = 30f;
     [SerializeField] private int damage = 1;
     private Rigidbody2D rb;
+    private Coroutine deactivateCoroutine;
 
     private void Awake()
     {
-        canPiercingShield = false;
+        canPierceShield = false;
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -20,7 +22,17 @@ public class FireballProjectile : MonoBehaviour,IShieldBlockable
     {
         rb.linearVelocity = direction.normalized * speed;
 
-        Destroy(gameObject, 3f);
+        if (deactivateCoroutine != null)
+        {
+            StopCoroutine(deactivateCoroutine);
+        }
+        deactivateCoroutine = StartCoroutine(DeactivateAfterTime(3f));
+    }
+
+    private IEnumerator DeactivateAfterTime(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        SimplePoolManager.Instance.Despawn(gameObject);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -32,13 +44,16 @@ public class FireballProjectile : MonoBehaviour,IShieldBlockable
             if (enemy != null)
             {
                 enemy.TakeDamage(damage);
-                Destroy(gameObject);
 
+                if (deactivateCoroutine != null) StopCoroutine(deactivateCoroutine);
+                SimplePoolManager.Instance.Despawn(gameObject);
             }
         }
     }
 
-    public void OnBlockedByShield() { 
-        Destroy(gameObject);    
+    public void OnBlockedByShield()
+    {
+        if (deactivateCoroutine != null) StopCoroutine(deactivateCoroutine);
+        SimplePoolManager.Instance.Despawn(gameObject);
     }
 }

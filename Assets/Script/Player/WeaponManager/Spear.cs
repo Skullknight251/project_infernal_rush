@@ -111,16 +111,24 @@ public class Spear : Weapon {
     {
         animator.SetTrigger(PLAYER_JUMPTRIGGER);
     }
-    public void SpearThrow(bool canPiercing,int bonusDamage,float speed,Vector2 direction)
+    public void SpearThrow(bool canPiercing, int bonusDamage, float speed, Vector2 direction)
     {
-        Transform trans = Instantiate(spearClone, spearCloneSpawner.position, spearCloneSpawner.rotation);
-        SpearClone sp = trans.GetComponent<SpearClone>();
+        GameObject spearGO = SimplePoolManager.Instance.Spawn(spearClone.gameObject, spearCloneSpawner.position, spearCloneSpawner.rotation);
+        SpearClone sp = spearGO.GetComponent<SpearClone>();
         sp.canPiercingAttack = canPiercing;
-        if (canPiercing) sp.SetPiercingShield(true);
+        if (canPiercing)
+        {
+            sp.SetPiercingShield(true);
+        }
+        else
+        {
+            sp.SetPiercingShield(false);
+        }
         sp.AddDamage(bonusDamage);
         sp.speed = speed;
         sp.SetDirection(direction);
     }
+
 
     //protected override void PlayerMovement_onOverheadAttackAction(object sender, EventArgs e)
     //{

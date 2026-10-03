@@ -1,11 +1,24 @@
+using System.Collections;
 using UnityEngine;
 
 public class IceShieldPrefab : MonoBehaviour
 {
     [SerializeField] private float destroyTime;
-    public void Awake()
+    private Coroutine deactivateCoroutine;
+
+    public void Setup()
     {
-        Destroy(gameObject, destroyTime);
+        if (deactivateCoroutine != null)
+        {
+            StopCoroutine(deactivateCoroutine);
+        }
+        deactivateCoroutine = StartCoroutine(DeactivateAfterTime(destroyTime));
+    }
+
+    private IEnumerator DeactivateAfterTime(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        SimplePoolManager.Instance.Despawn(gameObject);
     }
 
     public void OnTriggerEnter2D(Collider2D collision)
@@ -15,5 +28,4 @@ public class IceShieldPrefab : MonoBehaviour
             Destroy(weapon.gameObject);
         }
     }
-
 }

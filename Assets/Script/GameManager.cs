@@ -30,8 +30,6 @@ public class GameManager : MonoBehaviour
         //PlayerPrefs.DeleteAll();
         //PlayerPrefs.Save();
         Instance = this;
-        //DeleteItem("celestial");
-        //DeleteItem("wind");
         SetupDefaultPurchasedItems();
     }
     void Start()
@@ -42,9 +40,9 @@ public class GameManager : MonoBehaviour
         }
         //if (LoadCurrentSouls() <= 0)
         //{
-            //UpdateSouls(100000);
+        //    UpdateSouls(100000);
         //}
-        
+
         GameInput.Instance.onEscape += GameInput_onEscape;
         StartGameSetUp();
     }

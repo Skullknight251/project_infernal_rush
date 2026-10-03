@@ -5,11 +5,10 @@ using UnityEngine;
 
 public class Scythe : Weapon
 {
-
     public Animator animator;
     private ContactFilter2D filter;
     private List<Collider2D> hitsCollider = new List<Collider2D>();
-    private string PLAYER_IS_HOLDING_SCYTHE = "IsHoldingScythe"; 
+    private string PLAYER_IS_HOLDING_SCYTHE = "IsHoldingScythe";
     public bool playerIsHolding;
 
     [SerializeField] private float delayTime = 0.2f;
@@ -25,6 +24,7 @@ public class Scythe : Weapon
         filter = ContactFilter2D.noFilter;
         filter.useTriggers = true;
     }
+
     protected override void Start()
     {
         base.Start();
@@ -33,29 +33,26 @@ public class Scythe : Weapon
         GameInput.Instance.onHeavyAttackReleaseAction += GameInput_onHeavyAttackReleaseAction;
     }
 
-    private void GameInput_onOverheadAttackAction(object sender, EventArgs e)
-    {
-        throw new NotImplementedException();
-    }
-
     protected override void OnDestroy()
     {
         base.OnDestroy();
-        GameInput.Instance.onHeavyAttackReleaseAction -= GameInput_onHeavyAttackReleaseAction;
+        if (GameInput.Instance != null)
+        {
+            GameInput.Instance.onHeavyAttackReleaseAction -= GameInput_onHeavyAttackReleaseAction;
+        }
     }
+
     private void GameInput_onHeavyAttackReleaseAction(object sender, EventArgs e)
     {
-
-        if (playerIsHolding){
+        if (playerIsHolding)
+        {
             animator.SetTrigger(HEAVY_BASIC_ATTACK_TRIGGER);
 
             StartCoroutine(DelayBeforeBasicAttack());
 
             playerIsHolding = false;
-
             charging = false;
             chargingTime = 0f;
-            //chargingPlusDamaged = 0;
         }
     }
 
@@ -72,16 +69,15 @@ public class Scythe : Weapon
                 charging = false;
             }
             animator.SetBool(HEAVY_ATTACK_CHARGING, charging);
-
             animator.SetBool(PLAYER_IS_HOLDING_SCYTHE, playerIsHolding);
         }
     }
+
     protected override void PlayerMovement_onJumpAction(object sender, EventArgs e)
     {
         animator.SetTrigger(PLAYER_JUMPTRIGGER);
     }
 
-    
     protected override void PlayerMovement_onOverheadAttackAction(object sender, EventArgs e)
     {
         if (playerIsHolding)
@@ -94,23 +90,25 @@ public class Scythe : Weapon
     {
         if (playerIsHolding)
         {
-             animator.SetTrigger(BASIC_ATTACK_TRIG);
+            animator.SetTrigger(BASIC_ATTACK_TRIG);
         }
     }
-    
+
     public void ScytheTornado()
     {
-        Transform trans = Instantiate(scytheTornado, scytheTornadoSpawner.position,scytheTornadoSpawner.rotation);
-        ScytheTornado scytheTor = trans.GetComponent<ScytheTornado>();
-        scytheTor.AddDamage(chargingPlusDamaged);
-        scytheTor.SetScythe(this);
+        GameObject scytheGO = SimplePoolManager.Instance.Spawn(scytheTornado.gameObject, scytheTornadoSpawner.position, scytheTornadoSpawner.rotation);
+        scytheGO.transform.localScale = scytheTornado.transform.localScale;
+
+        ScytheTornado scytheTor = scytheGO.GetComponent<ScytheTornado>();
+        scytheTor.Setup(this, chargingPlusDamaged);
+
         Debug.Log(scytheTor.GetDamage() + " " + chargingPlusDamaged);
     }
+
     public void ExecuteSlashDamage()
     {
         hitsCollider.Clear();
         int count = attackHitBox.Overlap(filter, hitsCollider);
-        //Debug.Log(count);
         foreach (Collider2D col in hitsCollider)
         {
             if (col.TryGetComponent<HurtBox>(out HurtBox hurtBox))
@@ -120,12 +118,10 @@ public class Scythe : Weapon
                 if (enemy != null)
                 {
                     enemy.TakeDamage(slashDamage);
-
                 }
             }
         }
     }
-
 
     public void ExecuteSpinAttackDamage()
     {
@@ -141,7 +137,6 @@ public class Scythe : Weapon
                 if (enemy != null)
                 {
                     enemy.TakeDamage(spinningAttackDamage);
-
                 }
             }
         }
@@ -151,6 +146,5 @@ public class Scythe : Weapon
     {
         yield return new WaitForSeconds(delayTime);
         ScytheTornado();
-        Debug.Log("waiting");
     }
 }

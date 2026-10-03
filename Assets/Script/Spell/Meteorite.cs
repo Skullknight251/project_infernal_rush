@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class Meteorite : MonoBehaviour
@@ -5,21 +6,34 @@ public class Meteorite : MonoBehaviour
     public float speed;
     private Vector2 direction;
     [SerializeField] private int damage = 4;
-    void Start()
+    private Coroutine deactivateCoroutine;
+
+    public void Setup(float speed, Vector2 direction)
     {
-        Destroy(gameObject, 2f);
+        this.speed = speed;
+        this.direction = direction.normalized;
+
+        if (deactivateCoroutine != null)
+        {
+            StopCoroutine(deactivateCoroutine);
+        }
+        deactivateCoroutine = StartCoroutine(DeactivateAfterTime(2f));
     }
-    public void Awake()
+
+    private IEnumerator DeactivateAfterTime(float delay)
     {
+        yield return new WaitForSeconds(delay);
+        SimplePoolManager.Instance.Despawn(gameObject);
     }
+
     void Update()
     {
-        transform.position +=(Vector3)(direction * speed * Time.deltaTime);
+        transform.position += (Vector3)(direction * speed * Time.deltaTime);
 
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-
         transform.rotation = Quaternion.Euler(0f, 0f, angle);
     }
+
     public void OnTriggerEnter2D(Collider2D other)
     {
         if (other.TryGetComponent<HurtBox>(out HurtBox hurtBox))
@@ -29,13 +43,10 @@ public class Meteorite : MonoBehaviour
             if (enemy != null)
             {
                 enemy.TakeDamage(damage);
-                Destroy(gameObject);
+
+                if (deactivateCoroutine != null) StopCoroutine(deactivateCoroutine);
+                SimplePoolManager.Instance.Despawn(gameObject);
             }
         }
-
     }
-    public void SetDirection(Vector2 direction)
-    {
-        this.direction = direction;
-    } 
 }

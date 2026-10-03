@@ -13,8 +13,13 @@ public class WindElement : Spell
     }
     public override void CastSpell(PlayerMovement playerMovement)
     {
+        base.CastSpell(playerMovement);
         Transform castPoint = playerMovement.spellCastSpot;
-        WindSlash windSlash = Instantiate(windSlashPrefab,castPoint.transform.position,castPoint.transform.rotation);
+        GameObject windSlashGO = SimplePoolManager.Instance.Spawn(windSlashPrefab.gameObject, castPoint.position, castPoint.rotation);
+        windSlashGO.transform.localScale = windSlashPrefab.transform.localScale;
+
+        WindSlash windSlash = windSlashGO.GetComponent<WindSlash>();
         windSlash.Setup(castPoint.right);
+        
     }
 }

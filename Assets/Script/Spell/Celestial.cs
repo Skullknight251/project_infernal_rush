@@ -11,19 +11,6 @@ public class Celestial : Spell
     private Animator animator;
     public float delayTime;
     public float speed;
-    void Start()
-    {
-        GameInput.Instance.onCastingSpellAction += GameInput_onCastingSpellReleaseAction;
-        animator = GetComponent<Animator>();
-    }
-    private void Update()
-    {
-        TryCastSpellCharging();
-    }
-    private void GameInput_onCastingSpellAction(object sender, EventArgs e)
-    {
-        throw new NotImplementedException();
-    }
 
     protected override void Awake()
     {
@@ -31,37 +18,59 @@ public class Celestial : Spell
         Instance = this;
     }
 
+    void Start()
+    {
+        if (GameInput.Instance != null)
+        {
+            GameInput.Instance.onCastingSpellAction += GameInput_onCastingSpellReleaseAction;
+        }
+        animator = GetComponent<Animator>();
+    }
+
+    private void Update()
+    {
+        TryCastSpellCharging();
+    }
+
     private void GameInput_onCastingSpellReleaseAction(object sender, EventArgs e)
     {
-
         Vector2 direction = AimSkill.Instance.StopAim();
-
         charging = false;
 
-        StartCoroutine(
-            DelayBeforeAttack(speed, direction)
-        );
+        StartCoroutine(DelayBeforeAttack(speed, direction));
         ConsumeManaFast(castSpellManaCost);
+
         charging = false;
         chargingTime = 0f;
     }
 
     public IEnumerator DelayBeforeAttack(float speed, Vector2 direction)
     {
+        if (PlayerMovement.Instance != null)
+        {
+            base.CastSpell(PlayerMovement.Instance);
+        }
+
         yield return new WaitForSeconds(delayTime);
-        MeteoriteSummon(speed,direction);
-        Debug.Log("waiting");
+        MeteoriteSummon(speed, direction);
     }
 
     public void MeteoriteSummon(float speed, Vector2 direction)
     {
-        Meteorite meteorite = Instantiate(meteoritePrefab,PlayerMovement.Instance.skySpawnSpot.transform.position, PlayerMovement.Instance.skySpawnSpot.transform.rotation);
-        meteorite.speed = speed;
-        meteorite.SetDirection(direction);
+        Transform spawnSpot = PlayerMovement.Instance.skySpawnSpot;
+
+        GameObject meteoriteGO = SimplePoolManager.Instance.Spawn(meteoritePrefab.gameObject, spawnSpot.position, spawnSpot.rotation);
+        meteoriteGO.transform.localScale = meteoritePrefab.transform.localScale;
+
+        Meteorite meteorite = meteoriteGO.GetComponent<Meteorite>();
+        meteorite.Setup(speed, direction);
     }
 
     public void OnDestroy()
     {
-        GameInput.Instance.onCastingSpellAction -= GameInput_onCastingSpellReleaseAction;
+        if (GameInput.Instance != null)
+        {
+            GameInput.Instance.onCastingSpellAction -= GameInput_onCastingSpellReleaseAction;
+        }
     }
 }

@@ -261,16 +261,13 @@ public class BossEnemy : MonoBehaviour
 
     private void CleanupDeadEnemies()
     {
-        activeEnemies.RemoveWhere(enemy => enemy == null);
+        
+        activeEnemies.RemoveWhere(enemy => enemy == null || !enemy.gameObject.activeInHierarchy);
     }
 
     private void SpawnEnemy(GameObject prefab, Transform spawnPoint, int index)
     {
-        GameObject obj = Instantiate(
-            prefab,
-            spawnPoint.position,
-            Quaternion.identity
-        );
+        GameObject obj = SimplePoolManager.Instance.Spawn(prefab, spawnPoint.position, Quaternion.identity);
 
         if (obj.TryGetComponent(out Enemy enemy))
         {
@@ -318,22 +315,19 @@ public class BossEnemy : MonoBehaviour
 
         foreach (Enemy enemy in activeEnemies)
         {
-            if (enemy != null)
+            if (enemy != null && enemy.gameObject.activeInHierarchy)
             {
-                Destroy(enemy.gameObject);
+                SimplePoolManager.Instance.Despawn(enemy.gameObject);
             }
         }
 
         activeEnemies.Clear();
-
         isExecutingCombo = false;
         gameplayStarted = false;
         introStarted = false;
         isIntro = false;
-
         index = 0;
         comboCount = 0;
-
         rb.linearVelocity = Vector2.zero;
     }
     public void ClearInstance()

@@ -29,10 +29,10 @@ public class Enemy : MonoBehaviour
     public bool CanRun => PlayerMovement.Instance != null && PlayerMovement.Instance.CanRun;
     public GameObject hurtBoxCollider;
     private bool deadByPlayer;
+
     [Header("DropItem")]
     [SerializeField] private List<DropItemSO> dropItems;
     public Transform tutorialSpawnPoint;
-
 
     [Header("Enemy Separation")]
     [SerializeField] private float separationRadius = 10f;
@@ -54,10 +54,14 @@ public class Enemy : MonoBehaviour
     public int currentHealth;
     public float MoveSpeed => BossEnemy.Instance.moveSpeed;
     public BossEnemy boss;
+
+    private Coroutine skillCoroutineInstance;
+    private Coroutine delayAfterSpawnInstance;
+
     protected virtual void Awake()
     {
-        deadByPlayer = true;
-        isDead = false;
+        rb = GetComponent<Rigidbody2D>();
+
         if (hurtBoxCollider != null)
         {
             hurtBoxCollider.GetComponent<HurtBox>().SetEnemy(this);
@@ -66,45 +70,76 @@ public class Enemy : MonoBehaviour
         {
             normalAttackTriggerPoint.GetComponent<NormalAttackTrigger>().SetEnemy(this);
         }
+    }
+
+    protected virtual void OnEnable()
+    {
+        deadByPlayer = true;
+        isDead = false;
+        isStunned = false;
         currentHealth = health;
-        rb = GetComponent<Rigidbody2D>();
+
+        if (hurtBoxCollider != null)
+        {
+            hurtBoxCollider.SetActive(true);
+        }
+
+        if (rb != null)
+        {
+            rb.gravityScale = 0f;
+            rb.linearVelocity = Vector2.zero;
+        }
+
+        if (healthBar != null)
+        {
+            healthBar.UpdateVisual();
+        }
+
+        FlipToPlayer();
+
+        if (gameObject.activeInHierarchy)
+        {
+            delayAfterSpawnInstance = StartCoroutine(delayAfterSpawn());
+        }
+    }
+
+    protected virtual void OnDisable()
+    {
+        if (delayAfterSpawnInstance != null) StopCoroutine(delayAfterSpawnInstance);
+        if (skillCoroutineInstance != null) StopCoroutine(skillCoroutineInstance);
+        StopAllCoroutines();
     }
 
     protected virtual void Start()
     {
-        animator = GetComponent<Animator>();
-        FlipToPlayer();
-        StartCoroutine(delayAfterSpawn());
-        
+        if (animator == null)
+        {
+            animator = GetComponent<Animator>();
+        }
     }
+
     public IEnumerator delayAfterSpawn()
     {
         yield return new WaitForSeconds(spawnTime);
-        if (combo != null)
+        if (combo != null && !isDead)
         {
-            StartCoroutine(SkillCoroutine());
+            skillCoroutineInstance = StartCoroutine(SkillCoroutine());
         }
     }
+
     public void SetDeadByPlayer(bool res)
     {
         deadByPlayer = res;
     }
+
     public bool IsPlayerInCQCRange()
     {
-        if (Player.Instance == null)
-            return false;
+        if (Player.Instance == null) return false;
 
-        Collider2D playerCollider = Physics2D.OverlapCircle(
-            transform.position,
-            cqcAttackRange,
-            playerLayer
-        );
+        Collider2D playerCollider = Physics2D.OverlapCircle(transform.position, cqcAttackRange, playerLayer);
+        if (playerCollider == null) return false;
 
-        if (playerCollider == null)
-            return false;
-
-        Vector2 directionToPlayer =
-            (Player.Instance.transform.position - transform.position).normalized;
+        Vector2 directionToPlayer = (Player.Instance.transform.position - transform.position).normalized;
         Vector2 forwardDirection = -transform.right;
 
         return Vector2.Dot(forwardDirection, directionToPlayer) > 0;
@@ -112,87 +147,68 @@ public class Enemy : MonoBehaviour
 
     public IEnumerator SkillSignal(Transform position)
     {
-        GameObject tmp = Instantiate(skillSignal, position);
-        
-        tmp.SetActive(true);
+        GameObject tmp = SimplePoolManager.Instance.Spawn(skillSignal, position.position, position.rotation);
+        tmp.transform.SetParent(position);
+        tmp.transform.localScale = skillSignal.transform.localScale;
+
         yield return new WaitForSeconds(0.6f);
-        Destroy(tmp );
+        SimplePoolManager.Instance.Despawn(tmp);
     }
+
     public IEnumerator ExecuteSkill(EnemySkillType skillType)
     {
-        if (!CanRun)
-            yield break;
+        if (!CanRun) yield break;
         switch (skillType)
         {
             case EnemySkillType.Skill1:
                 yield return StartCoroutine(Skill1());
                 break;
-
             case EnemySkillType.Skill2:
                 yield return StartCoroutine(Skill2());
                 break;
         }
     }
+
     public IEnumerator ExecuteShoot(EnemyShootType shootType)
     {
-        if (!CanRun)
-            yield break;
+        if (!CanRun) yield break;
         switch (shootType)
         {
             case EnemyShootType.Shoot1:
                 yield return StartCoroutine(Shoot1());
                 break;
-
             case EnemyShootType.Shoot2:
                 yield return StartCoroutine(Shoot2());
                 break;
         }
     }
-    public virtual IEnumerator Shoot1()
-    {
-        yield return null;
-    }
-    public virtual IEnumerator Shoot2()
-    {
-        yield return null;
-    }
 
-    public virtual IEnumerator Skill1()
-    {
-        yield return null;
-    }
-    public virtual IEnumerator Skill2()
-    {
-        yield return null;
-    }
+    public virtual IEnumerator Shoot1() { yield return null; }
+    public virtual IEnumerator Shoot2() { yield return null; }
+    public virtual IEnumerator Skill1() { yield return null; }
+    public virtual IEnumerator Skill2() { yield return null; }
+
     public IEnumerator SkillCoroutine()
     {
         while (!isDead && Player.Instance != null)
         {
-
             foreach (EnemyActionSO enemyAction in combo.actionsInCombo)
             {
-                if (isDead)
-                    yield break;
-
-                yield return StartCoroutine(
-                    enemyAction.ExecuteAction(this)
-                );
+                if (isDead) yield break;
+                yield return StartCoroutine(enemyAction.ExecuteAction(this));
             }
-
             yield return null;
         }
     }
 
-    
     public virtual void OnHitPlayer()
     {
-        animator.SetTrigger(ATTACK1_TRIGGER);
+        if (animator != null) animator.SetTrigger(ATTACK1_TRIGGER);
     }
+
     public Vector2 GetSeparationDirection()
     {
         Vector2 position = transform.position;
-
         int columnIndex = index / maxEnemyPerColumn;
         int slotIndex = index % maxEnemyPerColumn;
 
@@ -200,19 +216,10 @@ public class Enemy : MonoBehaviour
 
         switch (slotIndex)
         {
-            case 0:
-                position.y += 0f;
-                break;
-
-            case 1:
-                position.y += verticalDistance;
-                break;
-
-            case 2:
-                position.y -= verticalDistance;
-                break;
+            case 0: position.y += 0f; break;
+            case 1: position.y += verticalDistance; break;
+            case 2: position.y -= verticalDistance; break;
         }
-
         return position;
     }
 
@@ -225,28 +232,23 @@ public class Enemy : MonoBehaviour
     public IEnumerator TakeDamageDelayRoutine()
     {
         yield return new WaitForSeconds(takeDamageDelay);
-
         if (hurtBoxCollider != null && !isDead)
         {
             hurtBoxCollider.SetActive(true);
         }
     }
-    
+
     public void PositionCheck()
     {
         bool hasOverlap = true;
-        int maxIterations = 10; 
+        int maxIterations = 10;
         int iteration = 0;
 
         while (hasOverlap && iteration < maxIterations)
         {
             hasOverlap = false;
             iteration++;
-            Collider2D[] enemies = Physics2D.OverlapCircleAll(
-                transform.position,
-                separationRadius,
-                enemyLayer
-            );
+            Collider2D[] enemies = Physics2D.OverlapCircleAll(transform.position, separationRadius, enemyLayer);
 
             foreach (Collider2D enemyCollider in enemies)
             {
@@ -257,7 +259,6 @@ public class Enemy : MonoBehaviour
                     if (otherEnemy.index == index)
                     {
                         transform.position -= new Vector3(nextTurnDistance, 0f, 0f);
-
                         hasOverlap = true;
                         break;
                     }
@@ -265,55 +266,53 @@ public class Enemy : MonoBehaviour
             }
         }
     }
+
     public void CheckPlayerHit(Collider2D collision, int damage)
     {
         if (collision.TryGetComponent(out Player player))
         {
             player.TakeDamage(damage);
-            //Debug.Log("Hit Player: " + damage);
         }
     }
+
     public void TakeDamage(int damage)
     {
+        if (isDead) return;
+
         currentHealth -= damage;
-        if ( isStunned)
+        if (isStunned)
         {
             currentHealth -= 100;
         }
-        animator.SetTrigger(HURT_TRIGGER);
-        //Debug.Log($"{enemySO.name} took {damage} damage. Current health: {currentHealth}");
-        healthBar.UpdateVisual();
+
+        if (animator != null) animator.SetTrigger(HURT_TRIGGER);
+        if (healthBar != null) healthBar.UpdateVisual();
+
         CheckHealth();
     }
 
     public void StartStun()
     {
-        if (isDead || isStunned)
-            return;
+        if (isDead || isStunned) return;
 
         isStunned = true;
-
         StartCoroutine(StunTime());
         StartCoroutine(StunTutorial());
     }
 
     public IEnumerator StunTime()
     {
-        rb.AddForce(Vector2.right * stunHorizontalForce, ForceMode2D.Impulse);
-        
+        if (rb != null) rb.AddForce(Vector2.right * stunHorizontalForce, ForceMode2D.Impulse);
         yield return new WaitForSeconds(stunDuration);
-
         ResetStunState();
     }
 
     public void ResetStunState()
     {
-
         if (isDead) return;
-        rb.linearVelocity = Vector2.zero;
+        if (rb != null) rb.linearVelocity = Vector2.zero;
         isStunned = false;
     }
-
 
     public void CheckHealth()
     {
@@ -326,24 +325,29 @@ public class Enemy : MonoBehaviour
     public IEnumerator Death()
     {
         isDead = true;
-        animator.SetTrigger(DEAD_TRIGGER);
-        //Debug.Log($"{enemySO.name} has died.");
-        rb.gravityScale = 1f;
-        rb.linearVelocity = Vector2.zero;
-        hurtBoxCollider.SetActive(false);
-        Vector2 deathForce = new Vector2(
-        Random.Range(-deathHorizontalForce, deathHorizontalForce),deathBounceForce);
+        if (animator != null) animator.SetTrigger(DEAD_TRIGGER);
 
-        rb.AddForce(deathForce, ForceMode2D.Impulse);
+        if (rb != null)
+        {
+            rb.gravityScale = 1f;
+            rb.linearVelocity = Vector2.zero;
+            Vector2 deathForce = new Vector2(Random.Range(-deathHorizontalForce, deathHorizontalForce), deathBounceForce);
+            rb.AddForce(deathForce, ForceMode2D.Impulse);
+        }
+
+        if (hurtBoxCollider != null) hurtBoxCollider.SetActive(false);
+
         if (deadByPlayer)
         {
             DropItem();
         }
+        if (boss != null)
+        {
+            boss.NotifyEnemyDeath(this);
+        }
         yield return new WaitForSeconds(delayDeathTime);
-        
-        Destroy(gameObject);
+        SimplePoolManager.Instance.Despawn(gameObject);
     }
-
     public void DropItem()
     {
         foreach (DropItemSO dropItem in dropItems)
@@ -351,22 +355,12 @@ public class Enemy : MonoBehaviour
             for (int i = 0; i < dropItem.quantity; i++)
             {
                 Vector2 randomOffset = Random.insideUnitCircle * 1.5f;
-
-                Vector3 spawnPosition =
-                    transform.position + new Vector3(randomOffset.x, randomOffset.y, 0f);
-
-                Instantiate(
-                    dropItem.prefab,
-                    spawnPosition,
-                    Quaternion.identity
-                );
-
+                Vector3 spawnPosition = transform.position + new Vector3(randomOffset.x, randomOffset.y, 0f);
+                Instantiate(dropItem.prefab, spawnPosition, Quaternion.identity);
             }
         }
         StartCoroutine(DropItemTutorial());
     }
-
-
     public IEnumerator StunTutorial()
     {
         yield return new WaitForSeconds(0.5f);
@@ -383,38 +377,25 @@ public class Enemy : MonoBehaviour
             TutorialManager.Instance.SpawnTutorial(TutorialCheck.TutorialStep.dropItem, TutorialPoint.Instance.dropItemTutorialPoint);
         }
     }
-
     public void SetBoss(BossEnemy boss)
     {
         this.boss = boss;
     }
     public virtual void MoveSet()
     {
-
         foreach (DropItemSO dropItem in dropItems)
         {
             for (int i = 0; i < dropItem.quantity; i++)
             {
                 Vector2 randomOffset = Random.insideUnitCircle * 1.5f;
-
-                Vector3 spawnPosition =
-                    transform.position + new Vector3(randomOffset.x, randomOffset.y, 0f);
-
-                Instantiate(
-                    dropItem.prefab,
-                    spawnPosition,
-                    Quaternion.identity
-                );
-
+                Vector3 spawnPosition = transform.position + new Vector3(randomOffset.x, randomOffset.y, 0f);
+                Instantiate(dropItem.prefab, spawnPosition, Quaternion.identity);
             }
         }
-
     }
     public void FlipToPlayer()
     {
         if (Player.Instance == null) return;
-
-        
         float directionToPlayer = Player.Instance.transform.position.x - transform.position.x;
         if (directionToPlayer != 0)
         {

@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class LightningBolt : MonoBehaviour
@@ -8,6 +9,7 @@ public class LightningBolt : MonoBehaviour
     [SerializeField] private Animator animator;
     [SerializeField] private float lifeTime;
     private string[] attackTriggers = new string[] { ANIM1_TRIG, ANIM2_TRIG };
+    private Coroutine deactivateCoroutine;
 
     private void Awake()
     {
@@ -17,10 +19,21 @@ public class LightningBolt : MonoBehaviour
         }
     }
 
-    private void Start()
+    public void Setup()
     {
         TriggerRandomLightningAnimation();
-        Destroy(gameObject, lifeTime);
+
+        if (deactivateCoroutine != null)
+        {
+            StopCoroutine(deactivateCoroutine);
+        }
+        deactivateCoroutine = StartCoroutine(DeactivateAfterTime(lifeTime));
+    }
+
+    private IEnumerator DeactivateAfterTime(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        SimplePoolManager.Instance.Despawn(gameObject);
     }
 
     private void TriggerRandomLightningAnimation()
@@ -41,7 +54,6 @@ public class LightningBolt : MonoBehaviour
             if (enemy != null)
             {
                 enemy.TakeDamage(damage);
-                
             }
         }
     }

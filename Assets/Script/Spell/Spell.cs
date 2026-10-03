@@ -1,13 +1,12 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using static Weapon;
 
-public class Spell : Item,IHasSkill
+public class Spell : Item, IHasSkill
 {
     public SpellSO spellSO;
-
     public Skill swapSpellButtonPrefab;
-
     public List<SkillSO> skillListSO;
     public float spellCastingHoldThreshold = 0f;
     public List<SkillSO> SkillListSO => skillListSO;
@@ -27,27 +26,35 @@ public class Spell : Item,IHasSkill
 
     public void Start()
     {
-
     }
+
     public virtual void CastSpell(PlayerMovement playerMovement)
     {
+        HideSpellVisual();
+        StartCoroutine(CastSpellCoroutine());
+    }
 
+    public IEnumerator CastSpellCoroutine()
+    {
+        yield return new WaitForSeconds(1f);
+        ShowSpellVisual();
     }
 
     public void HideSpellVisual()
     {
-        spriteRenderer.enabled = false;
+        if (spriteRenderer != null) spriteRenderer.enabled = false;
     }
 
     public void ShowSpellVisual()
     {
-        spriteRenderer.enabled = true;
+        if (spriteRenderer != null) spriteRenderer.enabled = true;
     }
 
-    public void DoDamage(Enemy enemy,int damage)
+    public void DoDamage(Enemy enemy, int damage)
     {
         enemy.TakeDamage(damage);
     }
+
     public void TryCastSpellCharging()
     {
         if (GameInput.Instance.IsSpellCasting && Player.Instance.GetMana() >= castSpellManaCost)
@@ -59,16 +66,13 @@ public class Spell : Item,IHasSkill
                 if (AimSkill.Instance != null)
                 {
                     AimSkill.Instance.StartAim();
-                    Debug.Log("StartAim");
                 }
             }
 
             chargingTime += Time.deltaTime;
             chargingTime = Mathf.Min(chargingTime, maxChargingTime);
 
-            chargingPlusDamage = Mathf.FloorToInt(
-                chargingTime / maxChargingTime * chargingMaxDamage
-            );
+            chargingPlusDamage = Mathf.FloorToInt(chargingTime / maxChargingTime * chargingMaxDamage);
         }
         else
         {
